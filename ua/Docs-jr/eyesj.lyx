@@ -1,0 +1,9274 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage{lmodern}
+\usepackage{wrapfig}
+ \setlength{\intextsep}{0cm plus1cm minus1cm}
+\newcommand{\menuitem}[1]{\textbf{\emph{#1}}}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+logicalmkup
+\end_modules
+\maintain_unincluded_children false
+\language ukrainian
+\language_package babel
+\inputencoding utf8-cjk
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 21cm
+\paperheight 29.5cm
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\secnumdepth 2
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align left
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.2in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+expEYES 
+\size larger
+Junior
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pics/ej-with-netbook-hr.jpg
+	lyxscale 10
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Посібник користувача
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+Експерименти для
+\begin_inset Newline newline
+\end_inset
+
+ Молодих інженерів і вчених
+\end_layout
+
+\begin_layout Standard
+\align center
+http://expeyes.in
+\end_layout
+
+\begin_layout Standard
+\align center
+від
+\end_layout
+
+\begin_layout Standard
+\align center
+Проекту PHOENIX
+\begin_inset Newline newline
+\end_inset
+
+Inter-University Accelerator Centre 
+\begin_inset Newline newline
+\end_inset
+
+(A Research Centre of UGC)
+\begin_inset Newline newline
+\end_inset
+
+New Delhi 110 067
+\begin_inset Newline newline
+\end_inset
+
+www.iuac.res.in
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Передмова
+\end_layout
+
+\begin_layout Standard
+Проект ФЕНІКС (Фізика з використанням саморобного обладнання та Інноваційні
+ експерименти) був початий в 2004 році в Inter-University Accelerator Centre
+ з метою поліпшення наукової освіти індійських університетів.
+ Розвиток лабораторного обладнання низької вартості та підготовка вчителів
+ є двома основними видами діяльності в рамках цього проекту.
+\end_layout
+
+\begin_layout Standard
+expEYES Junior є модифікованою версією expEYES випущеної раніше.
+ Він призначений, щоб бути інструментом для навчання та досліджень і підходить
+ для останніх шкільних класів і вище.
+ Ми постаралися оптимізувати дизайн, щоб він був простим, гнучким, міцним
+ і мав низьку вартість.
+ Низька ціна робить його доступним для людей, і ми сподіваємося побачити
+ як студенти проводять експерименти за межами чотирьох стін лабораторії,
+ яка закривається, коли продзвенить дзвінок.
+\end_layout
+
+\begin_layout Standard
+Дизайн заліза є відкритим і вільним від ліцензійних відрахувань.
+ Програмне забезпечення розповсюджується за ліцензією GNU General Public
+ License.
+ Проект прогресує завдяки активній участі та внескам з боку спільноти користувач
+ів та багатьох інших осіб, що не входять до IUAC.
+ Ми вдячні S Venkaramanan і проф.
+ R Nagarajan за корекцію цього документа шляхом проведення експериментів,
+ описаних незалежно.
+\end_layout
+
+\begin_layout Standard
+Керівництво користувача expEYES JUNIOR розповсюджується під GNU Free Documentati
+on Ліцензією.
+ Для більш детальної інформації про проект відвідайте веб-сайт 
+\shape italic
+expeyes.in
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ajith Kumar B.P.
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+(ajith@iuac.res.in)
+\end_layout
+
+\begin_layout Standard
+V V V Satyanarayana
+\end_layout
+
+\begin_layout Standard
+Jimson Sacharias
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Приступаючи до роботи
+\end_layout
+
+\begin_layout Section
+Введення
+\end_layout
+
+\begin_layout Standard
+Наука - це вивчення фізичного світу за допомогою систематичних спостережень
+ і експериментів.
+ Правильна наукова освіта має важливе значення для вирощування суспільства,
+ де міркування і логічне мислення переважає забобони і ірраціональні переконання.
+ Наукова освіта, також, важлива для навчання достатньої кількості техніків,
+ інженерів і вчених для економіки сучасного світу.
+ Загальновизнано, що особистий досвід що набувається шляхом експериментів
+ і спостережень, або здійснюється студентом або виконується як демонстрація
+ вчителем, має важливе значення для педагогіки науки.
+ Проте, майже скрізь наука в основному вчиться за допомогою підручників,
+ ігноруючи важливе значення експериментів, частково через відсутність обладнання.
+ У результаті, більшість студентів не в змозі співвіднести свій шкільний
+ досвід з проблемами, з якими стикаються в повсякденному житті.
+ В якійсь мірі це можна виправити, вивченням науки на основі дослідження
+ та експериментів.
+\end_layout
+
+\begin_layout Standard
+Поява персональних комп'ютерів та їх доступність відкрила новий шлях для
+ виготовлення лабораторного обладнання.
+ Додавання деяких апаратних засобів до звичайного комп'ютера може перетворити
+ його на наукову лабораторію.
+ Виконання швидких вимірювань з достатньою точністю дозволяє вивчати широке
+ коло явищ.
+ Наукові експерименти зазвичай включають вимірювання/контроль фізичних параметрі
+в, таких як температура, тиск, швидкість, прискорення, сила, напруга, струм
+ і т.д.
+ Якщо виміряна фізична властивість швидко змінюється, вимірювання повинне
+ бути автоматизованим і комп'ютер перетворюється на корисний інструмент.
+ Наприклад, розуміння змін напруги в мережі змінного струму з часом, вимагає
+ вимірювання його кожної мілісекунди.
+\end_layout
+
+\begin_layout Standard
+Можливість проводити експерименти з достатнім ступенем точності також відкриває
+ можливості для освіти орієнтованої на дослідження.
+ Студенти можуть порівняти експериментальні дані з математичними моделями
+ і вивчити фундаментальні закони, що регулюють різні явища.
+ Дослідження вчених роблять те ж саме за допомогою більш складного обладнання.
+ Комплект expEYES (експерименти для молодих інженерів та вчених) призначений
+ для підтримки широкого спектра експериментів, зі школи, щоб відправити
+ рівень випускника.
+ Він також виступає в якості випробувального обладнання для інженерів і
+ любителів електроніки.
+ Проста і відкрита архітектура expEYES дозволяє користувачам 
+\shape italic
+розробляти нові експерименти, не вдаючись у деталі електроніки або комп'ютерного
+ програмування
+\shape default
+.
+ Цей посібник користувача описує 
+\shape italic
+expEYES
+\shape default
+ Junior разом з кількома експериментами, доступне також керівництво програміста.
+\end_layout
+
+\begin_layout Section
+Обладнання
+\end_layout
+
+\begin_layout Standard
+ExpEYES Junior сполучена і живиться від USB-порту комп'ютера.
+ Для підключення зовнішніх сигналів, у нього є кілька клем Input/Output,
+ розташовані з обох сторін, як показано на малюнку 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-ExpEYES-toppanel"
+
+\end_inset
+
+.
+ Він може контролювати і управляти напругою на цих клемах.
+ Для того щоб виміряти інші параметри (такі як температура, тиск і т.
+ д.), ми повинні перетворити їх в електричні сигнали за допомогою відповідних
+ датчиків.
+\end_layout
+
+\begin_layout Standard
+Незважаючи на те, що наша головна мета це робити експерименти, ми радимо
+ вам читати короткий опис обладнання, вказаний нижче.
+ Пристрій також може бути використаний в якості випробувального обладнання
+ з електротехнічних та електронних інженерних експериментів.
+\end_layout
+
+\begin_layout Paragraph*
+
+\shape italic
+ВАЖЛИВО: 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Зовнішні напруги, підключені до expEYES повинні бути в допустимих межах.
+ Входи A1 і A2 повинна бути в межах
+\begin_inset Formula $\pm5$
+\end_inset
+
+ вольт і входи IN1 і IN2 повинні бути в діапазоні 0 до 5V.
+ Невелике перевищення цих меж буде давати повідомлення про помилку.
+ Якщо програма перестає відповідати на запити, треба вийти і знову підключити
+ USB для скидання пристрою.
+ Великі значення напруги можуть призвести до незворотного пошкодження.
+ Для вимірювання більш високих напруг, їх треба поділити за допомогою резистивни
+х дільників.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/top-panel.png
+	lyxscale 50
+	height 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+На верхній панелі ExpEYES Junior на обох сторонах зображені зовнішні з'єднання.
+ Номера деяких термінали призначені для тих, хто пише програмне забезпечення
+ для доступу до них.
+ Стрілки вказують напрямок сигналів, на приклад стрілка від 
+\begin_inset Formula $A1\Rightarrow1$
+\end_inset
+
+ означає, що сигнал за допомогою термналу A1 йде на канал номер 1.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-ExpEYES-toppanel"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Зовнішні підключення
+\end_layout
+
+\begin_layout Standard
+Функції зовнішніх Input/Outputs клем стисло описані нижче.
+\end_layout
+
+\begin_layout Paragraph*
+Programmable Voltage Source (PVS):
+\end_layout
+
+\begin_layout Standard
+Може бути встановлений, за допомогою програмного забезпечення, у будь-яке
+ значення у діапазоні від 0 до +5V.Розподільча здатність 12 біт, означає
+ крок мінімальної напруги близько 1,25 мВ.
+ Існує функція зворотного читання для перевірки PVS.
+\end_layout
+
+\begin_layout Paragraph*
+\begin_inset Formula $\pm5V$
+\end_inset
+
+ Analog Inputs (A1 & A2) : 
+\end_layout
+
+\begin_layout Standard
+Можуть вимірювати напругу в
+\begin_inset Formula $\pm5$
+\end_inset
+
+ вольт.
+ Розподільча здатність АЦП 12 біт.
+ Напруга на цих терміналах може бути відображена в залежності від часу,
+ що дає функціональні можливості низькочастотного осцилографа.
+ Максимальна частота дискретизації 250,000 в секунду.
+ Обидва мають вхідний опір
+\begin_inset Formula $10M\Omega$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Paragraph*
+\begin_inset Formula $0-5V$
+\end_inset
+
+ Analog Inputs (IN1 & IN2):
+\end_layout
+
+\begin_layout Standard
+Ці термінали можуть вимірювати напруги в діапазоні від 0 до 5V.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Resistive Sensor Input (SEN):
+\end_layout
+
+\begin_layout Standard
+В основному він призначений для датчиків, таких як фото-резистор, термістор,
+ фото-транзистор, тощо.
+ SEN підключений до 5 вольт через резистор
+\begin_inset Formula $5.1k\Omega$
+\end_inset
+
+.
+ Він також має вбудований аналоговий компаратор.
+\end_layout
+
+\begin_layout Paragraph*
+Digital Inputs (IN1 & IN2):
+\end_layout
+
+\begin_layout Standard
+Входи IN1, IN2 можуть діяти і як аналогові і як цифрові входи.
+ У цифровому режимі, будь-яку напруга менша за 1 вольт розглядається як
+ логічний 0 (низький рівень) а все, що вище, за 2,5 вольт розглядається
+ як логічна 1 (високий рівень).
+ Якщо вхідна напруга періодично змінюється між високим і низьким, ці термінали
+ можуть вимірювати частоту і робочий цикл підключеного сигналу.
+ Часовий інтервал між переходами напруги на цих висновках може бути виміряний
+ з мікросекундою розподільчою здатністю.
+\end_layout
+
+\begin_layout Paragraph*
+Digital Output (OD1) :
+\end_layout
+
+\begin_layout Standard
+Напруга на OD1 може бути встановлена в 0 або 5 вольт, використовуючи програмне
+ забезпечення.
+\end_layout
+
+\begin_layout Paragraph*
+Square Waves SQR1 & SQR2 : 
+\end_layout
+
+\begin_layout Standard
+Вихід змінюється від 0 до 5 вольт і частота може змінюватися від 0,7 Гц
+ до 100 кГц.
+ Всі проміжні значення частоти згенерувати неможливо.
+ Для SQR1 і SQR2 можуть бути встановлені різні частоти.
+ Крім того, можна встановити їх у тій же частоті з певним фазовим зрушенням
+ між ними.
+ Ці виходи можуть бути запрограмовані на модуляцією ширини імпульсу сигналів.
+ SQR1 підключений до каналу 6 для зчитування і SQR2 підключений до каналу
+ 7.
+\end_layout
+
+\begin_layout Standard
+Установка частоти у 0 Гц зробить високий рівень на виході а встановивши
+ її у -1 отримаємо низький рівень, в обох випадках генерація буде відключена.
+ Коли генерація відключена - SQR1 і SQR2 може виступати в якості цифрових
+ виходів 8 і 9 відповідно.
+\end_layout
+
+\begin_layout Standard
+На виході SQR1 є
+\series bold
+\shape slanted
+
+\begin_inset Formula $100\Omega$
+\end_inset
+
+ резистор
+\series default
+\shape default
+ так, що вихід може керувати світлодіодами безпосередньо.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Infrared Transmission
+\end_layout
+
+\begin_layout Standard
+Інфрачервоний діод підключений до SQR1 може передавати дані з використанням
+ протоколу передачі ІК.
+ Передача 4 байт може використовуватися для емуляції загальних телевізійних
+ пультів.
+ Він також підтримує однобайтну передачу, яка може бути отримана з програми,
+ яка виконується на мікроконтролері
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://expeyes.in/micro-controllers-for-hobby-projects-and-education
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph*
+SINE wave: 
+\end_layout
+
+\begin_layout Standard
+Генератор синусоїдального сигналу фіксованої частоти дозволяє сгенерувати
+ сигнал приблизно 150 Hz.
+ На виході пристроя біполярний сигнал амплітудою 4 вольта.
+\end_layout
+
+\begin_layout Paragraph*
+Constant Current Source (CCS) : 
+\end_layout
+
+\begin_layout Standard
+Джерело постійного струму може вмикатися і вимикається під управлінням програмно
+го забезпечення.
+ Номінальне значення току 1 мА, але може варіюватися від пристрою до пристрою
+ через допуски компонентів.
+ Для вимірювання точного значення підключіть амперметр від CCS до землі.
+ Інший метод полягає у підключені відомого опору (~3.3k) і виміряти падіння
+ напруги на ньому.
+ Навантажувальний резистор повинен бути не менше 4k для цього джерела струму.
+\end_layout
+
+\begin_layout Paragraph*
+Microphone (MIC) :
+\end_layout
+
+\begin_layout Standard
+Пристрій має вбудований конденсаторний мікрофон (з боку недалеко від CCS).
+ Його вихід посилений у 51 разів передається на вихід MIC.
+ Підключіть його до А1 або А2 для перегляду.
+\end_layout
+
+\begin_layout Paragraph*
+Inverting Amplifier (IN->OUT) : 
+\end_layout
+
+\begin_layout Standard
+Інвертуючий підсилювач реалізований з використанням операційного підсилювача
+ TL084.
+ При Rf=51000 і Ri = 1000, дає максимальне посилення 
+\begin_inset Formula $\frac{51000}{1000}=51$
+\end_inset
+
+.
+ Коефіцієнт посилення може бути зменшений шляхом подачі на вхід через резистор.
+ Наприклад, за допомогою 50k резистора отримаємо інвертор з однократним
+ посиленням.
+\end_layout
+
+\begin_layout Paragraph*
+Ground : 
+\end_layout
+
+\begin_layout Standard
+Чотири термінали позначені як GND є опорна земля.
+ Всі напруги згенеровані/виміряні по відношенню до цих терміналів.
+\end_layout
+
+\begin_layout Subsection
+Набір інструментів
+\end_layout
+
+\begin_layout Standard
+Деякі інструменти постачаються разом з expEYES Junior.
+ Фотографія приведена на зворотній сторінці посібника.
+\end_layout
+
+\begin_layout Itemize
+Крокодили з виводами (4): Якщо підключення до будь-якого терміналу змінюється
+ багато разів під час експерименту, то легше встановити з'єднання за допомогою
+ крокодилів з поставки.
+\end_layout
+
+\begin_layout Itemize
+3000 обертів дроту (2): 44SWG мідний дріт, індуктивність
+\begin_inset Formula $\approx$
+\end_inset
+
+ 125 мГн, опір 
+\begin_inset Formula $\approx$
+\end_inset
+
+ 550 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ .
+ Ці котушки можуть бути використані для вивчення індуктивності, електромагнітної
+ індукції і т.д.
+ 
+\end_layout
+
+\begin_layout Itemize
+П'єзоелектричні Диски (2): Резонансна частота становить близько 3500 Гц.
+ Можуть збуджуватися з SQR1 або SQR2.
+ Диски укладені в пластиковий корпус, який утворює порожнину, яка посилює
+ амплітуду виробленого звуку.
+\end_layout
+
+\begin_layout Itemize
+Двигун постійного струму: Повинен живитися від напруги постійного струму
+ менше 3 вольт.
+\end_layout
+
+\begin_layout Itemize
+Постійні магніти: (А) діаметр 10мм та довжина (Б) 5 мм в діаметрі та довжина
+ 10 мм (В) магніти (2) розміром з кнопку
+\end_layout
+
+\begin_layout Itemize
+5мм світлодіоди: червоний, синій, зелений, білий
+\end_layout
+
+\begin_layout Itemize
+Конденсатори: 47uF, 1uF, 0.1uF, 0,01 мкФ та 100 пФ
+\end_layout
+
+\begin_layout Itemize
+Резистори: 560
+\begin_inset Formula $\Omega$
+\end_inset
+
+, 1
+\begin_inset Formula $k\Omega$
+\end_inset
+
+, 2.2
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ , 10
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ , 51
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ and 200 
+\begin_inset Formula $k\Omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+LDR та Термістор
+\end_layout
+
+\begin_layout Itemize
+Два кремнієві діоди (1N4148) і транзистор (2N2222)
+\end_layout
+
+\begin_layout Itemize
+5 штук проводів (8 см) і викрутка
+\end_layout
+
+\begin_layout Section
+Установка програмного забезпечення
+\end_layout
+
+\begin_layout Standard
+ExpEYES може працювати на будь-якому комп'ютері, що має інтерпретатор Python-а
+ і модуль Python для доступу до послідовного порту.
+ Інтерфейс USB обробляється програмою драйвера пристрою, який представляє
+ порт USB в якості порту RS232 для прикладних програм.
+ Зв'язок з expEYES робиться з використанням бібліотеки написаній мовою Python
+ (мається також мовою C).
+ Програми з графічним інтерфейсом були написані для багатьох експериментів.
+ Є багато способів запустити програмне забезпечення:
+\end_layout
+
+\begin_layout Subsubsection*
+The expEYES Live CD 
+\end_layout
+
+\begin_layout Standard
+Найпростіший спосіб щоб почати - завантажити комп'ютер з expEYES Live-CD.
+ Для цього в BIOS комп'ютера треба зробити привід компакт-дисків в якості
+ першого завантажувального пристрою, вставте Live-CD і перезавантажте комп'ютер.
+ Коли з'явиться робочий стіл - можна починати роботу з expEYES Junior з
+ меню Applications->Science->EYES-Junior.
+ Ви також можете запустити його з терміналу за допомогою команди:
+\end_layout
+
+\begin_layout LyX-Code
+$ python /usr/share/expeyes-junior/croplus.py
+\end_layout
+
+\begin_layout Subsubsection*
+Установка на Debian або Ubuntu GNU/Linux дистрибутивах
+\end_layout
+
+\begin_layout Standard
+Завантажте
+\series bold
+ expeyes-3.0.0.deb
+\series default
+ , або вище версію, з секції software сайту 
+\series bold
+http://expeyes.in
+\series default
+ та встановіть його.
+ Воно залежить від версії python-serial, python-tk, python-scipy та grace
+ (a 2D plotting program).
+\end_layout
+
+\begin_layout Subsubsection*
+Для інших дистрибутивів GNU/Linux
+\end_layout
+
+\begin_layout Standard
+Завантажте
+\series bold
+expeyes-3.x.x.zip
+\series default
+ from 
+\series bold
+http://expeyes.in
+\series default
+ та слідуйте інструкції в файлі README.
+ Дуже важливо надати права на read/write для всіх користувачів на USB порт,
+ на який підключається expEYES.
+ Це може бути зроблено запуском 
+\shape italic
+postint
+\shape default
+ shell скрипту, який знаходиться в zip файлі.
+\end_layout
+
+\begin_layout Subsubsection*
+On MSWindows
+\end_layout
+
+\begin_layout Standard
+Не дивлячись на те, що expEYES є Free Software і розроблена з використанням
+ Free та Open програмного забезпечення, вона може використовуватися і на
+ non-free платформах.
+ Для того, щоб установити її на MS windows, ви потрібен (1) MCP2200 драйвер
+ (2) Python-2.x, python-serial, python-tk, python-numpy and python-scipy
+ (3) expeyes-3.x.x.zip
+\end_layout
+
+\begin_layout Standard
+Розархівуйте файл 
+\series bold
+expeyes-3.x.x.zip
+\series default
+, і двічі клацніть на 
+\series bold
+croplus.py
+\series default
+ всередині щойно створений каталог з ім'ям expeyes-3.x.x
+\backslash
+eyes-junior.
+ Якщо у вас є expEYES LiveCD, зайдіть до каталогу WINEYES.
+ Всі файли, згадані вище, є в цьому каталозі.
+ Двічі клацніть на них в порядку, згаданому вище для того, щоб їх встановити.
+ Дивись розділ програмного забезпечення на веб-сайті expeyes для отримання
+ більш докладної інформації.
+\end_layout
+
+\begin_layout Section
+На MS Windows
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/benchmark.png
+	lyxscale 50
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Екран croplus демонструє синусоїдальну хвилю частотою 1000,5 Гц, зняту з
+ A1.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-croplus-screen."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Запустіть Applications->Science->EYES-Juniorз меню.
+ Відкриється екран осцилографа з чотирма каналами та кількома додатковими
+ функціями, як показано на малюнку 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-croplus-screen."
+
+\end_inset
+
+.
+ Кнопка 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ 
+\shape default
+викличе меню програм для запуску декількох експериментів.
+ Головне вікно стане неактивним, коли експеримент обрано і запущено.
+\end_layout
+
+\begin_layout Subsubsection*
+Вікно Plot
+\end_layout
+
+\begin_layout Standard
+Вікно plot працює як низькочастотний чотири-канальний осцилограф.
+ Максимальної частоти дискретизації 250 кГц вистачить тільки для того, щоб
+ дослідити аудіо частоти .
+ Короткий опис цієї програми GUI, наводиться нижче.
+\end_layout
+
+\begin_layout Itemize
+З лівого боку показані входи (A1, A2 IN1 IN2, SEN і для зворотнього читання
+ SQR1 та SQR2).
+ 
+\shape italic
+Натискання на будь-який з них буде відображати поточну напругу/логічний
+ рівень.
+ 
+\shape default
+Для побудови будь-якого з них перетягніть його на потрібний канал (CH1 -
+ CH4).
+ Імена входів, обраних для відображення, показані на правій стороні вікна
+ графіку за допомогою унікального кольору для кожного каналу.
+\end_layout
+
+\begin_layout Itemize
+Для онлайн-допомоги помістіть курсор на будь-який елемент, натисніть і утримуйте
+ ліву кнопку миші.
+\end_layout
+
+\begin_layout Itemize
+Переміщення ATR до будь-якого з входів зробить його джерелом синхронізації
+ CRO.
+\end_layout
+
+\begin_layout Itemize
+Ця програма дозволяє різні типи запуску.
+ Наприклад, перетягування WRE до IN1 дозволить призводить запуск при наростаючом
+у фронті на ньому.
+ Він також підтримує налаштування рівнів або генерації імпульсів на цифрових
+ виходах безпосередньо перед захопленням сигналу.
+ Переміщення SHI на OD1 буде тримати OD1 з високим рівнем протягом процесу
+ захоплення.
+ Для отримання додаткової інформації зверніться до керівництва програміста.
+\end_layout
+
+\begin_layout Itemize
+Переміщення будь-якого з каналів, CH1 - CH4 на FIT, дозволить розрахунки
+ амплітуди і частоти за допомогою апроксимації даних яке можна описати рівнянням
+\begin_inset Formula $V=V_{0}\sin\left(2\pi ft+\theta\right)+C$
+\end_inset
+
+ , 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ і 
+\begin_inset Formula $f$
+\end_inset
+
+ буде відображатися.
+ Переміщення каналу на NML відключить FIT опцію.
+\end_layout
+
+\begin_layout Itemize
+Клацання правою кнопкою миші на IN1, IN2, SEN, SQR1 або SQR2 буде вимірювати
+ частоту та робочий цикл напруги сигналу, присутнього на терміналі.
+\end_layout
+
+\begin_layout Itemize
+Якщо дві сусідні канали призначені, то клацання правою кнопкою миші на першому
+ вирахує частоту та різницю фаз між двома входами.
+\end_layout
+
+\begin_layout Itemize
+Переміщення каналу на FTR покаже Фур'є спектру сигналу в окремому вікні.
+\end_layout
+
+\begin_layout Itemize
+Щоб видалити відображуваний вхід - перетягніть його на DEL.
+\end_layout
+
+\begin_layout Itemize
+Регулювання горизонтальної шкали (мс/поділ).
+ Встановіть її у мінімальне значення і збільшуйте для того, щоб подивитися
+ більшу кількість циклів на екрані.
+ Перетягніть повзунок або натисніть на ліву/праву сторони від нього.
+\end_layout
+
+\begin_layout Itemize
+Вертикальна шкала (вольт/поділ).
+ Максимальні значення - 5 вольт на поділ.
+\end_layout
+
+\begin_layout Itemize
+Для кожного каналу є вертикальний офсет повзунка для того, щоб здвигати
+ графік вгору та вниз.
+\end_layout
+
+\begin_layout Itemize
+Вибір кнопки LOOP переключає Single/Continuous режим сканування.
+\end_layout
+
+\begin_layout Itemize
+Графіки можуть бути передані у вікно побудови Грейс, використовуючи XMG.
+\end_layout
+
+\begin_layout Itemize
+Кнопка SAVE призначена щоб зберігати дані у вибраний файл у двоколонному
+ текстовому форматі.
+ 
+\end_layout
+
+\begin_layout Standard
+На додаток до функцій, CRO, ви також можете керувати SQR1, SQR2, ПВС і т.д.
+ з графічного інтерфейсу.
+ Ви можете виконувати функції мовою Python для доступу до обладнання у вікні
+ командного рядка.
+\end_layout
+
+\begin_layout Itemize
+Для прямокутних сигналів, частота та різниця фаз у відсотках вводиться у
+ два текстові поля.
+ Для SQR1 та SQR2 можуть бути встановлені різні частоти або одна частота
+ з необхідним зсувом фаз.
+ Для того, щоб зміни вступили в силу, необхідно ре-активувати check buttons.
+\end_layout
+
+\begin_layout Itemize
+SQR1 може бути встановлено, також, за допомогою слайдера.
+\end_layout
+
+\begin_layout Itemize
+Для встановлення PVS, наберіть напругу (0 to 5) та натисніть Enter.
+ PVS вихід має зворотне зчитування і зчитане значення показується у полі
+ повідомлення.
+\end_layout
+
+\begin_layout Itemize
+Checkbuttons надаються для контролю OD1 and CCS.
+\end_layout
+
+\begin_layout Itemize
+Ємність, підключена між IN1 та GND, може бути виміряна.
+\end_layout
+
+\begin_layout Itemize
+Функції Python для зв'язку з пристроєм можуть бути введені в Command Window.
+\end_layout
+
+\begin_layout Section
+Основні виміри з використанням expEYES
+\end_layout
+
+\begin_layout Standard
+Перш ніж приступити до експериментів, зробимо кілька простих вправ для ознайомле
+ння з expEYES Junior.
+ Завантажте комп'ютер з LiveCD, підключіть пристрій у порт USB і запустіть
+ програму ExpEYES-Junior з меню 'Applications->Science'.
+\end_layout
+
+\begin_layout Subsection
+Генерація та вимірювання напруги
+\end_layout
+
+\begin_layout Itemize
+Підключіть PVS до IN1 та призначте IN1 до CH1
+\end_layout
+
+\begin_layout Itemize
+Встановіть якусь напругу на PVS, та спостерігайте графік
+\end_layout
+
+\begin_layout Itemize
+Натисніть на IN1 для відображення напруги.
+\end_layout
+
+\begin_layout Subsection
+Відображення сигналу
+\end_layout
+
+\begin_layout Itemize
+Підключіть SINE до A1 і та А1 до CH1
+\end_layout
+
+\begin_layout Itemize
+Відрегулюйте горизонтальне масштабування (ms/Div), щоб побачити 4 або 5
+ періодів прямокутного сигналу
+\end_layout
+
+\begin_layout Itemize
+Встановіть частоту 100 та виберіть SQR1.
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть SQR1 з CH2
+\end_layout
+
+\begin_layout Itemize
+Зметніть частоту.
+ Зніміть вибір і знову виберіть SQR1.
+\end_layout
+
+\begin_layout Itemize
+Подивіться на FIT і FTR.
+\end_layout
+
+\begin_layout Subsection
+Вимірювання Частоти та Робочого циклу
+\end_layout
+
+\begin_layout Itemize
+Установіть SQR1 в 1000
+\end_layout
+
+\begin_layout Itemize
+Клацніть правою кнопкою миші на SQR1 для відображення частоти і робочого
+ циклу.
+\end_layout
+
+\begin_layout Itemize
+Для того, щоб установити 488 Hz 30% PWM, введіть 
+\shape italic
+set_sqr1_pwm(30)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\shape italic
+Для отримання інформації про всі команди, зверніться до керівництва програміста
+\end_layout
+
+\end_inset
+
+ 
+\shape default
+у вікні командного рядка.
+\end_layout
+
+\begin_layout Itemize
+Виміряйте знову клацнувши правою кнопкою на SQR1
+\end_layout
+
+\begin_layout Subsection
+Точність та розподільча здатність
+\end_layout
+
+\begin_layout Standard
+Малюнок
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-croplus-screen."
+
+\end_inset
+
+ показує синусоїдальний сигнал з амплітудою 3V та частотою 3000.5 Hz з Agilent
+ 33220A функціонального генератора, підключений до A1.
+ Напруга на IN1 вимірюється як 3,000 на Keithley 2100 мультиметрі, з похибкою
+ 2mV.
+ Частота звукового сигналу синусоїдальної форми вимірюється з помилкою менше
+ за 0.1%.
+ Вимірювання напруги має роздільчу здатність 12 біт, але абсолютна точність
+ може незначно змінюватися в залежності від температури навколишнього середовища.
+\end_layout
+
+\begin_layout Section
+Експерименти
+\end_layout
+
+\begin_layout Standard
+Пристрій ExpEYES може генерувати/вимірювати різні види сигналів напруги.
+ Для вимірювання будь-яких інших параметрів слід перетворити його в напругу
+ за допомогою відповідних елементів датчика.
+ Наприклад, температурний датчик дасть напругу, яка вказує температуру.
+\end_layout
+
+\begin_layout Standard
+GUI програма є для кожного експерименту, наведеного в цьому посібнику.
+ Тим не менш, можна зробити те ж саме, написавши кілька рядків коду мовою
+ Python.
+ Всі комунікації в expEYES робляться з використанням бібліотеки Python під
+ назвою eyesj.py.
+ Аналіз даних і графічний дисплей також робиться в Python.
+ Якщо ви зацікавлені у розвитку нових експериментів, заснованих на expEYES,
+ то вивчення мови програмування Python буде хорошою ідеєю.
+ Майже кожен експеримент може бути продовжений в декількох напрямках і деякі
+ натяки дано у цьому напрямку.
+\end_layout
+
+\begin_layout Standard
+Наступні глави описують експерименти з різних тем, як електромагнетизм,
+ електроніка, звук, тепло і т.д.
+ У зв'язку з тим, що комплект expEYES розроблено для самостійного навчання,
+ то на початку ми включили деякі дуже тривіальні експерименти.
+ Фотографії експериментальної установки не включені цей документ щоб зменшити
+ його розмір.
+\end_layout
+
+\begin_layout Chapter
+Електрика
+\end_layout
+
+\begin_layout Standard
+Почнемо з простого завдання - вимірювання напруги звичайної батарейки.
+ поняття струму і опору вводяться далі, після опору змінюваному температурою
+ і світлом.
+ Концепція змінного струму вводиться шляхом побудови напруги як функції
+ часу.
+ Поведінка схем елементів, таких як конденсатори і котушки індуктивності
+ в постійному і змінному струмі розглядаються за допомогою вимірювання таких
+ параметрів, як амплітуда, частота і фаза.
+ Перехідна характеристика резистора і конденсатора в серії використовується
+ для вимірювання ємності.
+ Індуктивність також вимірюється таким же чином.
+ Фур'є-аналіз сигналів розроблено для вивчення гармонік.
+ Також досліджується інтегрування та диференціювання квадратної хвилі з
+ використанням RC ланцюга.
+\end_layout
+
+\begin_layout Standard
+Для кожного експерименту, треба встановити зв'язки у відповідності до наведених
+ схем.
+\end_layout
+
+\begin_layout Section
+Вимірювання напруги
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Дізнатися про спосіб вимірювання напруги за допомогою expEYES і отримати
+ деяке уявлення про концепцію електричної землі.
+ Потрібні звичайна батарейка та два дроти.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/measure-dc.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Натисніть на A1 для відображення напруги
+\end_layout
+
+\begin_layout Itemize
+Повторіть експеримент при зворотному підключенні батарейки.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Значення виміряної напруги становить +1,5 вольт, стає -1.5 після реверсу
+ з'єднання.
+\end_layout
+
+\begin_layout Standard
+Ми вимірюємо різницю потенціалів між двома точками.
+ Один з них можна розглядати як нуль вольт, або потенціал землі.
+ Точки для вимірювання напруги в expEYES вимірюють напругу по відношенню
+ до клем, позначених GND.
+ Ми підключили негативну клему батарейки до землі.
+ Позитивна клема знаходиться на $+$1.5 вольта по відношенню до негативного
+ полюса.
+
+\shape italic
+ Чи буде він показати правильну напругу, якщо Земля не підключена?
+\end_layout
+
+\begin_layout Standard
+Якщо вхідна напруга знаходиться в межах від 0 до 5V, то треба використовувати
+ IN1, який безпосередньо пов'язаний з входом АЦП.
+ Розподільча здатність біполярних входів А1 і А2 наполовину менша за IN1.
+ Посилення і помилки пов'язані із зміщенням підсилювачів рівня також впливає
+ на точність А1 та A2.
+ 
+\end_layout
+
+\begin_layout Section
+Напруга, струм та опір
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Дізнатися про струм, опір і закон Ома, використовуючи пару резисторів.
+ Напруга на провіднику прямо пропорційна струму, що протікає через нього.
+ Коефіцієнт пропорційності називається Опір.
+ Це відомо як закон Ома, математично виражається як
+\begin_inset Formula 
+\[
+V\varpropto I\,\,\,;\,\,\,\, V=IR\,\,\,\, or\,\,\, R=\frac{V}{I}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/resistors.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Встановіть на PVS якусь напругу, прочитати фактичне значення з поля повідомлення.
+\end_layout
+
+\begin_layout Itemize
+Натисніть на IN1 для того, щоб виміряти напругу на ньому.
+\end_layout
+
+\begin_layout Itemize
+Повторіть ці дії для різних значень PVS.
+\end_layout
+
+\begin_layout Itemize
+Повторіть ці дії для інших значень опору.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Загальна напруга і напруга на R1 виміряна.
+ Напруга на R2
+\begin_inset Formula $U_{PVS}-U_{R1}$
+\end_inset
+
+.
+ Струм через R1, 
+\begin_inset Formula $I=U_{R1}/R1$
+\end_inset
+
+.
+ Та ж сама кількість струму протікає через R2 і напругу на R2 можна розрахувати,
+ використовуючи 
+\begin_inset Formula $U_{R1}=IR1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $U_{PVS}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $U_{IN1}=U_{R1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $I=\frac{U_{IN1}}{1000}$
+\end_inset
+
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $U_{R2}=U_{PVS}-U_{IN1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $U_{R2}=I\times2.2k$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.313
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.313
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.687
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.688
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.626
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.626
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.374
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.377
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.07
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Продовжіть цей експеримент, підключивши три резистора і підключившись до
+ IN1 і IN2.
+ Інша вправа полягає в підключенні від SEN до землі і виміру напруги SEN.
+ Пам'ятайте, що SEN внутрішньо підключений до 5 вольт через резистор
+\begin_inset Formula $5.1k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Калібрування джерела струму
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Calibrating-Current-Source"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Фактичний вихід джерела постійного струму може відрізнятися від зазначеного
+ 1 мА, у зв'язку з допуском використаних резисторів.
+ Він може бути виміряний шляхом підключення амперметра між CCS і GND, або
+ при підключенні відомого резистора до CCS і вимірювання напруги через нього.
+ Резистор повинен бути 2k або 4k.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ccs-calib.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Включити CCS
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Виміряні значення опору 3.876k і напруги 3,725 вольт.
+ Фактичне значення джерела постійного струму є 3.725/3.876 = 0.961мА.
+ 
+\end_layout
+
+\begin_layout Standard
+Для більшої точності виміряне значення слід використовувати в експериментах
+ з використанням CCS.
+\end_layout
+
+\begin_layout Section
+Послідовне з'єднання резисторів
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Знаходження ефективного опору послідовності,
+\begin_inset Formula $R=R1+R2+\cdots$
+\end_inset
+
+, використовуючи джерело постійного струму.
+ Використовуються резистори 
+\begin_inset Formula $560\Omega$
+\end_inset
+
+ та
+\begin_inset Formula $1k\Omega$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/res-series.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З'єднати R1, R2 поодинці, а потім разом
+\end_layout
+
+\begin_layout Itemize
+Виміряйте IN1 для кожного випадку
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R(
+\begin_inset Formula $\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+U(volts)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+560
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.558
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.998
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000+560
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.556
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Оскільки струм не змінюється, загальне падіння напруги дає ефективний опір.
+ Видно, що це сума окремих значень, в межах похибки вимірювань.
+ Для отримання більш точних результатів, треба використовувати значення
+ струму, виміряних як описано в розділі
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Calibrating-Current-Source"
+
+\end_inset
+
+, замість 1 мА.
+\end_layout
+
+\begin_layout Section
+Паралельне підключення резисторів
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Для знаходження ефективного опору паралельно з'єднаних резисторів використовуєть
+ся формула
+\begin_inset Formula $\frac{1}{R}=\frac{1}{R1}+\frac{1}{R2}+\cdots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/res-parallel.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Підключіть1
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ резистор від CCS до землі.
+\end_layout
+
+\begin_layout Itemize
+Повторіть те ж саме з двома резисторами, з'єднаними паралельно.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{connected}(\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $U_{measured}(V)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.008
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\begin_inset Formula $\parallel$
+\end_inset
+
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.503
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Так як ми знаємо струм, можна розрахувати опір від вимірюваної напруги.
+ Відповідно до виміряної напруги, опір паралельного кола резисторів
+\begin_inset Formula $\frac{0.503V}{0.001A}=503\Omega$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Вимірювання резисторів порівнянням
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Measure-resistance-by"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Навчитися застосовувати закон Ома щоб знайти значення невідомого опору порівнююч
+и його з відомим.
+ Напруга на резисторі буде
+\begin_inset Formula $U=IR$
+\end_inset
+
+ .
+ У зв'язку з тим, що через два різних резистори протікає однаковий струм,
+ то відношення напруг буде таким же, як відношення опорів резисторів, 
+\begin_inset Formula $I=\frac{U1}{R1}=\frac{U2}{R2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/res-compare.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Приєднайте невідомий резистор R між PVS та IN1.
+\end_layout
+
+\begin_layout Itemize
+Приєднайте1
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ (R1) між IN1 та Ground.
+\end_layout
+
+\begin_layout Itemize
+Встановіть на PVS 4 вольти.
+\end_layout
+
+\begin_layout Itemize
+Виміряйте напругу на IN1
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Напруга на IN1= 1.254, припускає на невідомому резисторі напругу 
+\begin_inset Formula $4-1.254=2.746$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Струм
+\begin_inset Formula $I=\frac{1.254}{1000}=1.254mA$
+\end_inset
+
+ .
+ Опір невідомого резистора = 
+\begin_inset Formula $\frac{2.746}{1.254mA}=2.19k\Omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Яке обмеження цього методу? Як ми вибираємо еталонний резистор? Припустимо,
+ що невідоме значення знаходиться мегомах, яке буде падіння напруги на 
+\begin_inset Formula $1k\Omega$
+\end_inset
+
+ еталонному резисторі? Розподільча здатність наших наших вимірювань 
+\begin_inset Formula $\frac{1}{4095}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ми будемо використовувати цей метод пізніше для вимірювання опору, за допомогою
+ AC.
+\end_layout
+
+\begin_layout Section
+Напруга на лимонній батарейці
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Зробити джерело напруги, вставивши цинкову і мідну пластини в лимон.
+ Дізнатися електрорушійну сила і внутрішній опір.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename schematics/lemon-cell.png
+	height 1.3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Натисніть на A1 для вимірювання напруги
+\end_layout
+
+\begin_layout Itemize
+Виміряйте напругу з резистором 1k і без нього
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Напруга на клемах міді і цинку майже 0,9 вольти.
+ Підключення резистора зменшує її до 0,33 вольт.
+ При підключенні струм почне текти через резистор.
+ Але чому напруга знижується?
+\end_layout
+
+\begin_layout Standard
+Що таке внутрішній опір батарейки?
+\end_layout
+
+\begin_layout Standard
+Струм - це потік зарядів і він повинен завершити шлях.
+ Це означає, що струм повинен текти через батарейку також.
+ Залежно від внутрішнього опору батарейки, частина напруги загубиться всередині
+ самої батарейки.
+ Чи те ж саме відбудеться з новим звичайними батарейками?
+\end_layout
+
+\begin_layout Section
+DC, AC та показники лінії живлення
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+ВикористовуючиV(t) графік.
+ ввести поняття напруги, залежної від часу.
+ Порівняти графіки DC та AC.
+ Дізнатися про AC живлення від мережі.
+ Дослідіть явище розповсюдження AC через вільний простір.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/ad-dc.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/pickup.png
+	lyxscale 50
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Побудова напруги в залежності від часу.
+ (a)Побудова DC та AC.
+ (b)Показники мережі змінного струму (AC)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Graph-of-DC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ac-dc.png
+	height 0.7cm
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Зв'язати A1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Itemize
+Встановити 1 вольт на PVS
+\end_layout
+
+\begin_layout Itemize
+Зв'язати CH1 з FIT, для вимірювання параметрів змінного струму.
+\end_layout
+
+\begin_layout Itemize
+Вимкніть SINE і підключити довгий дріт до A1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/line-pickup.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Рис.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Graph-of-DC"
+
+\end_inset
+
+(a) показує, що графік, DC є горизонтальною лінією, а для змінного струму
+ він змінює напрямок і величину з часом.
+ Напруга змінюється з часом.
+ Він змінюється з негативного до позитивного значення близько 150 циклів
+ в секунду.
+ Ця форма хвилі напруги генерується з використанням електронних схем.
+\end_layout
+
+\begin_layout Standard
+Включення опції FIT обчислює амплітуду і частоту до співпадіння даних з
+ рівнянням
+\begin_inset Formula $V=V_{0}\sin(2\pi ft+\theta)$
+\end_inset
+
+ , де 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ амплітуда і 
+\begin_inset Formula $f$
+\end_inset
+
+ 
+\begin_inset space ~
+\end_inset
+
+частота.
+ Яке значення має 
+\begin_inset Formula $\theta$
+\end_inset
+
+ у цьому рівнянні?
+\end_layout
+
+\begin_layout Standard
+Показники лінії живлення показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Graph-of-DC"
+
+\end_inset
+
+(b).
+ Частота отримана шляхом підгонки даних.
+ Не роблячи ніякого зв'язку, як ми отримаємо напругу змінного струму від
+ електромережі? Чому напруга збільшується при дотику рукою до кінця дроту
+ підключеного до A1.
+\end_layout
+
+\begin_layout Section
+DC та AC компоненти напруги
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:DC-&-AC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Розділення AC і DC компонентів кривої струму за допомогою конденсатора.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/acdc-sep-screen.png
+	lyxscale 40
+	width 6cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/body-resistance.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Прямокутний сигнал від 0 до 5V, з виключеним DC компонентом (b) Вимірювання
+ електричного опору тіла людини
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Square-wave"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/acdc-separating.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Встановити 500 Hz на SQR1
+\end_layout
+
+\begin_layout Itemize
+Зв'язати SQR1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Itemize
+Відрегулюйте горизонтальне масштабування для того щоб побачити кілька циклів.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Спостережувані сигнали з і без конденсатора показані на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Square-wave"
+
+\end_inset
+
+.
+ Вхідна напруга коливається від 0 до 5 вольт.
+ Після проходження через конденсатор, напруга коливається від -2.5 до +2.5
+ вольт.
+\end_layout
+
+\begin_layout Standard
+Що ви отримаєте, якщо ви віднімете 2,5 з у- координати кожної точки першого
+ графіка? Це те, що конденсатор зробив.
+ Він не пропускає DC складову сигналу.
+ Ця оригінальна прямокутна хвиля може розглядатися як 2.5V AC, яка складена
+ з 2.5V DC.
+\end_layout
+
+\begin_layout Standard
+Можливо, вам доведеться підключити резистор від А2 до землі, щоб побачити
+ розмах сигналу від -2.5 to +2.5 вольт.
+ Зніміть резистор і спостерігайте результат.
+\end_layout
+
+\begin_layout Section
+Опір людського тіла
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Отримати деяке уявлення про опір шкіри і як він змінюється.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/res-body.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть A1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Itemize
+З'єднайте PVS з А2 через ваше тіло і виміряйте напругу на CH2
+\end_layout
+
+\begin_layout Itemize
+Розрахуйте опір вашого тіла як зазначено у розділі
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Measure-resistance-by"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Повторіть з допомогою SINE замість PVS.
+ Включіть опцію FIT для вимірювання напруги.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Спостережувана форма сигналу показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Square-wave"
+
+\end_inset
+
+(b).
+ Напруга на А2 становить 3В.
+ Пульсації на виході, пов'язані з мережевою перешкодою 50Гц і може бути
+ усунена шляхом проведення експерименту далеко від ліній електропередач
+ за допомогою ноутбука.
+\end_layout
+
+\begin_layout Section
+Резистори, що залежать від температури
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Показати залежність опору від температури, використовуючи термістор,
+\begin_inset Formula $1k\Omega@25^{0}C$
+\end_inset
+
+, з негативним температурним коефіцієнтом.
+ Ознайомитися з датчиком температури.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/thermistor.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Натисніть на IN1 для вимірювання напруги
+\end_layout
+
+\begin_layout Itemize
+Повторіть при різних температурах
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Установка
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+U=IR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R=\frac{U}{I}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+У холодній воді
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1200
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Кімнатна температура
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.935
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+935
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Резистори, що залежать від освітлення
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Дізнатися про LDR.
+ Виміряти інтенсивність світла і його зміну з відстанню від джерела.
+ Використовуйте метод порівняння, щоб дізнатися, опір.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ldr.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Встановіть 4В на PVS і запишіть встановлену значення
+\end_layout
+
+\begin_layout Itemize
+Натисніть на IN1 щоб виміряти його, призначити IN1 до CH1.
+\end_layout
+
+\begin_layout Itemize
+Розрахувати опір LDR, як описано в
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Measure-resistance-by"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Повторіть, зменшивши інтенсивність світла на LDR
+\end_layout
+
+\begin_layout Itemize
+Підключіть світлодіод від SQR1 до землі.
+ Встановіть 10Гц на SQR1
+\end_layout
+
+\begin_layout Itemize
+Перемістіть світлодіод до LDR і подивіться сигнал у часі на IN1
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Опір коливатися від 1k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ до близько 100 k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ в залежності від інтенсивності світла, що падає на нього.
+ Напруга пропорційна опору.
+ Опір зменшується з інтенсивністю світла.
+ Якщо ви використовуєте точкове джерело світла, опір повинен збільшуватися
+ залежно від квадрату відстані.
+\end_layout
+
+\begin_layout Standard
+Освітлить LDR за допомогою люмінесцентної лампи і спостерігайте хвилі на
+ CH1.
+ Частота пульсацій пов'язана з частотою мережі.
+\end_layout
+
+\begin_layout Section
+Электропровідність води, використовуючи DC та AC
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Виміряти опір іонних розчинів, використовуючи постійний і змінний струм.
+ Ми використовували звичайну водопровідну воду.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Itemize
+R1 повинен бути сумірним з R, почніть з 10k.
+\end_layout
+
+\begin_layout Itemize
+Зв'язати A1 з CH1 та А2 з CH2, включіть FIT на обох
+\end_layout
+
+\begin_layout Itemize
+Розрахуйте опір, як описано в розділі
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Measure-resistance-by"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Повторіть з допомогою постійної напруги (DC), PVS замість SINE
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/res-water.png
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/water-conduct.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Электропровідність води.
+ (b)Загальна напруга живлення і напруга на 10k резисторі.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conductivity-of-water."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{U}_{total}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $U_{10k\Omega}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $U_{liq}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $I=\frac{U_{10k\Omega}}{1000}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{liq}=\frac{U_{liq}}{I}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SINE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.65
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.26 mA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.5 k
+\begin_inset Formula $\Omega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PVS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.23 mA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 7.4 k
+\begin_inset Formula $\Omega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Спостережувані величини показані в таблиці.
+ Опір постійному і змінному струму, здається, дуже різний.
+ При використанні DC, опір рідини змінюється з плином часу, в результаті
+ електролізу та утворення бульбашок.
+ Опір не так сильно залежить від відстані між електродами, площа електрода
+ робить деякий вплив.
+ Опір залежить від концентрації іонів і наявності домішок в використаній
+ воді.
+\end_layout
+
+\begin_layout Standard
+Спробуйте змінити відстань між електродами.
+ Спробуйте додати трохи кухонної солі і повторіть вимірювання.
+ Чому поведінка відрізняється для змінного і постійного струму? Які носії
+ заряду, відповідальні за потік електроенергії через схему? Чи відбувається
+ хімічна реакція?
+\end_layout
+
+\begin_layout Section
+Вимірювання ємності
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+expEYES Junior має внутрішнє програмоване джерело струму, яке може бути
+ включене на IN1.
+ Підключіть ємність С і включіть струм (5.5 
+\begin_inset Formula $\mu A$
+\end_inset
+
+) на фіксований інтервал часу.
+ Накопичений заряд 
+\begin_inset Formula $Q=It=CU$
+\end_inset
+
+ .
+ Значення 
+\begin_inset Formula $U$
+\end_inset
+
+ , C розраховується.
+ Для кращих результатів паразитна ємність повинна бути вирахувана.
+ Виміряти C без підключення до IN1, і відняти це значення від С, виміряне
+ за допомогою конденсатора.
+ Цей метод може бути використаний для значень до 10000 pf.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Окрім цього вам потрібно використовувати функції Python, яка може вказати
+ зарядний струм, тривалість зарядки і т.д.
+\end_layout
+
+\end_inset
+
+ Якщо торкнутися конденсатора під час вимірювання - це зіпсує результат.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/measure-cap.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Виміряти C без інших, підключень, щоб отримати значення паразитної ємності.
+\end_layout
+
+\begin_layout Itemize
+Підключіть конденсатор між IN1 і землею.
+ 
+\end_layout
+
+\begin_layout Itemize
+Натисніть на кнопку
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Measure C on IN1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Повторіть з різними конденсаторами
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Порожнє гніздо вимірює 34pf.
+ Кілька конденсаторів були виміряні.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Значення
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Виміряне значення (pF) - 34pF
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+680
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+664
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+180
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+176
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2900
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Вимірювання діелектричних констант
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Виміряти діелектричну проникність матеріалів, таких як скло папір поліестер
+ і т.д.
+ роблячи конденсатор.
+ Ємність
+\begin_inset Formula $C=\epsilon_{0}k\frac{A}{d}$
+\end_inset
+
+, де 
+\begin_inset Formula $\epsilon_{0}$
+\end_inset
+
+ є діелектрична проникність вакууму, 
+\begin_inset Formula $k$
+\end_inset
+
+ діелектрична постійна, 
+\begin_inset Formula $A$
+\end_inset
+
+ - поверхня перекриття пластин, 
+\begin_inset Formula $d$
+\end_inset
+
+ - відстань між ними.
+ Для конденсатора ми використали шматок скла 13см х 10,6см товщиною 4мм
+ з металевою фольгою з двох сторін.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Itemize
+підключити конденсатор між IN1 та землею.
+\end_layout
+
+\begin_layout Itemize
+Натисніть на кнопку 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Measure C on IN1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Повторіть без підключення нічого до IN1
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Спостережувана ємність225 pF.
+ Паразитна ємність вимірюється шляхом відключення дроту від IN1 і становить
+ 30пФ це означає, що C = 195pF.
+ 
+\begin_inset Formula $k=\frac{Cd}{\epsilon_{0}A}=\frac{195e-12\times0.004}{8.854e-12\times.13\times.106}=6.37$
+\end_inset
+
+.
+ Дотик до конденсатора під час вимірювання спотворює результати.
+\end_layout
+
+\begin_layout Standard
+За допомогою двох паралельних пластин можна також виміряти діелектричну
+ постійну рідини.
+\end_layout
+
+\begin_layout Section
+AC Зсув фази в RC ланцюгах
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Capacitor-in-AC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Дослідити ефект послідовно підключених конденсаторів в колах змінного струму(AC)
+ можна в стаціонарних умовах.
+ Опір конденсатора
+\begin_inset Formula $X_{c}=\frac{1}{2\pi fC}$
+\end_inset
+
+ , де 
+\begin_inset Formula $f$
+\end_inset
+
+ -частота в Гц і -ємність в Фарадах.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/rc-acphase.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Зв'язати A1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Itemize
+Відрегулюйте горизонтальне масштабування для перегляду більш 4 циклів.
+\end_layout
+
+\begin_layout Itemize
+Клацніть правою кнопкою миші на CH1 щоб обчислити фазовий зсув.
+\end_layout
+
+\begin_layout Standard
+Для детального вивчення виберіть
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Study of AC Circuits}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ з 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Форма хвилі напруги до і після конденсатора показані на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:AC-Phase-in-RC"
+
+\end_inset
+
+(a), та розрахунки наведені в таблиці.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C(uF)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R(
+\begin_inset Formula $\Omega$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Freq (Hz)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bigtriangleup\Phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\arctan\left(\frac{X_{c}}{X_{R}}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+147.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+де
+\begin_inset Formula $X_{c}=\frac{1}{2\pi fC}$
+\end_inset
+
+ це імпеданс конденсатора на частоті 147.3 Hz.
+ 
+\begin_inset Formula $X_{R}$
+\end_inset
+
+ це опір.
+\end_layout
+
+\begin_layout Standard
+Струм через конденсатор випереджає напруга на
+\begin_inset Formula $90^{0}$
+\end_inset
+
+.
+ Чому ?
+\end_layout
+
+\begin_layout Standard
+Чому змінилась фаза напруги? Припустимо, що ми підключили AC до пластини
+ А і в момент
+\begin_inset Formula $t=t_{0}$
+\end_inset
+
+ вхідна напруга знаходиться на позначці нуль вольт.
+ Ми можемо бачити, що нахил кривої тут максимальний, таким чином швидкість
+ зміни напруги максимальна.
+ Конденсатор заряджається дуже швидко в цій точці.
+ Пластина B також збирає той же заряд, як пластини А.
+ Це те як працює конденсатор.
+ Струм до пластини B тече з землі через резистор і ми міряємо IR падіння
+ напруги - воно буде вже позитивним, коли на пластині A буде нуль.
+ Це призводить до зміни фази.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/rc-phaseshift.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/rl-phaseshift.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Зсув фази змінного струму(a) ланцюга RC (b) ланцюга RL 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:AC-Phase-in-RC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Фазовий зсув AC в RL ланцюгах
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Inductor-in-AC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Виміряти фазу зсуву AC напруги в ланцюзі RL.
+ Опір котушки індуктивності
+\begin_inset Formula $X_{L}=2\pi fL$
+\end_inset
+
+ , де 
+\begin_inset Formula $f$
+\end_inset
+
+-частота в Гц і L - це індуктивність у Генрі.
+ У LC ланцюгах зсув фаз можна описати рівнянням 
+\begin_inset Formula $\triangle\Phi=\arctan\left(\frac{X_{L}}{X_{R}}\right)$
+\end_inset
+
+, де R - це опір Ом.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/rl-acphase.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Зв'язати A1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Itemize
+Відрегулюйте горизонтальне масштабування для перегляду більш 4 циклів.
+\end_layout
+
+\begin_layout Itemize
+Клацніть правою кнопкою миші на A1, щоб побачити зсув напруги та частоти.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Виміряні фазові зрушення наведені нижче.
+ Осцилограма для котушки індуктивності 125 мГн показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:AC-Phase-in-RC"
+
+\end_inset
+
+(b).
+ Опір котушки індуктивності повинен бути також включений при розрахунку
+ фази.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://www.play-hookey.com/ac_theory/ac_inductors.html
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L(mH)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R=R_{coil}+R_{ext}$
+\end_inset
+
+(
+\begin_inset Formula $\Omega$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bigtriangleup\Phi=\arctan\left(\frac{X_{L}}{X_{R}}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bigtriangleup\Phi_{measured}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+125
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+565 + 560
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.71
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-3.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вставте металевий або ферритовий сердечник до котушки і спостерігайте вплив
+ феромагнітних матеріалів.
+ Власна індуктивність соленоїда визначається за формулою
+\begin_inset Formula $L=\frac{\mu N^{2}A}{l}$
+\end_inset
+
+ , де N - кількість обертів дроту, A - це площа поперечного перерізу, 
+\begin_inset Formula $\mu$
+\end_inset
+
+ - проникність навколишнього середовища і l - довжина.
+\end_layout
+
+\begin_layout Section
+Перехідна характеристика RC ланцюгів
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Capacitor-charging-&"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Побудувати графік напруги на конденсаторі, коли він заряджається змінною
+ напругою через резистор.
+ Обчислити значення ємності від графіка.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/RCcircuit.png
+	height 0.8cm
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+З
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ , виберіть 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{RC Circuit}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ 
+\end_layout
+
+\begin_layout Itemize
+Натисніть на
+\shape italic
+ 0->5V STEP
+\shape default
+ та 
+\shape italic
+5->0V step
+\shape default
+ кнопки для побудови графіків
+\end_layout
+
+\begin_layout Itemize
+При необхідності відрегулюйте горизонтальне масштабування і повторіть.
+\end_layout
+
+\begin_layout Itemize
+Розрахуйте RC постійної часу.
+\end_layout
+
+\begin_layout Itemize
+Використовуйте CCS замість OD1 для зарядки конденсатора постійним струмом.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/RC-curves.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/cap-linear.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a)Transient response of RC circuit.
+ (b) Charging of capacitor with constant current.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Transient-RC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Застосування кроків від 0 до 5V підвищує напругу на конденсаторі експоненціально
+, як показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transient-RC"
+
+\end_inset
+
+(a).
+ У зв'язку з тим, що крива розряду описується як 
+\begin_inset Formula $U(t)=U_{0}e^{-\frac{t}{RC}}$
+\end_inset
+
+ , ми можемо витягти постійну часу RC і знайти звідси значення ємності.
+\end_layout
+
+\begin_layout Standard
+Напруга на конденсаторі експоненційна тільки тоді, коли він заряджається
+ через лінійний елемент, наприклад резистор.
+ Коли він заряджається від джерела постійного струму, напруга показує лінійне
+ збільшення, як показано у малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transient-RC"
+
+\end_inset
+
+(b) тому, що 
+\begin_inset Formula $Q=It=CV$
+\end_inset
+
+ , і напруга збільшується лінійно з часом, як 
+\begin_inset Formula $V=\left(\frac{I}{C}\right)t$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Section
+Перехідна характеристика в RL ланцюгах
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Дослідити природу струму і напруги, коли крок напруги на резисторі з'єднаному
+ з котушкою.
+ Вимірюючи напругу на котушці індуктивності як функцію часу, ми можемо обчислити
+ її індуктивність.
+\end_layout
+
+\begin_layout Standard
+В RL ланцюзі
+\begin_inset Formula $V=IR+L\frac{dI}{dt}$
+\end_inset
+
+ і рішення цього дасть 
+\begin_inset Formula $I=I_{0}e^{-\frac{R}{L}t}$
+\end_inset
+
+.
+ Коефіцієнт експоненційного члена R/ L може бути витягнутий з графіка напруги
+ на індукторі.
+ Опір котушки індуктивності має бути включений в розрахунки як
+\begin_inset Formula $R=R_{ext}+R_{L}$
+\end_inset
+
+.
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://nptel.iitm.ac.in/courses/Webcourse-contents/IIT-KANPUR/esc102/node14.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/RLcircuit.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Котушка складається з 3000 обертів дроту
+\end_layout
+
+\begin_layout Itemize
+З
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ виберіть 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{RL Circuit}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Натисніть
+\shape italic
+ 0->5V STEP
+\shape default
+ та 
+\shape italic
+5->0V step
+\shape default
+ кнопки для побудови графіків
+\end_layout
+
+\begin_layout Itemize
+При необхідності відрегулюйте горизонтальне масштабування і повторіть.
+\end_layout
+
+\begin_layout Itemize
+Обчислити значення індуктивності
+\end_layout
+
+\begin_layout Itemize
+Вставте залізний сердечник в котушку індуктивності і повторіть знову
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/RL-curves.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Transient response of RL circuit
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Transient-RL"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Перехідна характеристика індуктора показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transient-RC"
+
+\end_inset
+
+.
+ Експоненційна крива придатна для розрахунку значення L/ R.
+ Опір котушки вимірюється шляхом порівняння його з опором відомого зовнішнього
+ резистора в умовах постійного струму.
+ IN1 підключений до OD1 для більш точного вимірювання опору котушки.
+\end_layout
+
+\begin_layout Standard
+Спостережувані напруги вище нуля, але граф змінюється в бік негативних напруг.Чом
+у ?
+\end_layout
+
+\begin_layout Standard
+Який струм був перед кроком 5->0 step ? Яка ЕРС самоіндукції?
+\end_layout
+
+\begin_layout Standard
+Повторіть експеримент з двома котушками, підключеними послідовно, в силу
+ (а) розмістивши їх далеко (б) розмістивши їх один над одним і (с) після
+ зміни орієнтації.
+ Ефект взаємної індуктивності може бути видний.
+\end_layout
+
+\begin_layout Section
+Перехідний відгук LCR контурів
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Step-Response-ofRLC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Дослідіть коливальний характер L і C підключених послідовно.
+ Резонансна частота контуру LC розраховується
+\begin_inset Formula $\omega_{0}=\frac{1}{2\pi\sqrt{LC}}$
+\end_inset
+
+.
+ Коефіцієнт загасання 
+\begin_inset Formula $\frac{R}{2}\sqrt{\frac{C}{L}}$
+\end_inset
+
+, і він дорівнює 1 для критичного демпфірування.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://en.wikiversity.org/wiki/RLC_circuit
+\end_layout
+
+\end_inset
+
+ Залежно від значення C/L і R, відповідь може бути слабо затухаючою, критично
+ затухаючою or сильно затухаючою.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/RLC-curves.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/RLC-curve-damped.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Перехідний відгук LCR ланцюга,(a)Слабо затухаючий (b)Сильно затухаючий.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:LCR Transient-response"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/LCRcircuit.png
+	height 0.8cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename schematics/LCRRcircuit.png
+	height 0.7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ виберіть
+\shape italic
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{RLC Discharge}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ 
+\end_layout
+
+\begin_layout Itemize
+Натисніть на 5->0V STEP.
+ Налаштуйте x-axis та повторіть, якщо треба.
+\end_layout
+
+\begin_layout Itemize
+Налаштуйте графік для того, щоб знайти резонансну частоту та демпфірування.
+\end_layout
+
+\begin_layout Itemize
+Повторіть експеримент з різними значеннями L, C і R
+\end_layout
+
+\begin_layout Itemize
+Повторіть з підключеними резисторами.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Ми використали котушку індуктивності з 3000 обертами дроту та конденсатор
+ 0.1uF, додали резистор 2.2k у наступному випадку.
+ Напругу на конденсаторі після 5 to 0V кроків показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:LCR Transient-response"
+
+\end_inset
+
+ .Виміряна резонансна частота підраховується за формулою 
+\begin_inset Formula $f=\frac{1}{2\pi}\sqrt{\frac{1}{LC}}$
+\end_inset
+
+ , в межах значень, допустимих компонентів.
+\end_layout
+
+\begin_layout Section
+RC Інтеграція та Диференціація
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+RC схеми можуть інтегрувати або диференціювати сигнал напруги за часом.
+ Меандр інтегрується у трикутну хвилю і диференціюється, щоб отримати шипи
+ на переходах.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/rc-integ.png
+	height 0.8cm
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Установіть SQR2 у 1000Hz
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть SQR2 з CH1 та A1 з CH2
+\end_layout
+
+\begin_layout Itemize
+Відрегулюйте горизонтальне масштабування, щоб бачити більше за 4 цикли.
+\end_layout
+
+\begin_layout Itemize
+Установіть 1kHz (T = 1mS) на SQR2 та інші значення і отримайте осцилограми.
+\end_layout
+
+\begin_layout Itemize
+Повторіть те ж саме для RC диференціатора на 100Hz.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/rc-diff.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/rc-integ1khz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/rc-diff100Hz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Прямокутний сигнал частотою 1кГц після RC інтегратора (b) 100Гц після
+ RC диференціатора.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RC-int-diff"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Integration observed at 1kHz and differentiation at 100Hz are shown in figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:RC-int-diff"
+
+\end_inset
+
+, using an RC value of 1 milliseconds.
+ When the time period becomes comparable with the RC value, the output waveform
+ is triangular.
+ The differentiation can only be shown at lower frequency since capturing
+ the narrow spike requires a fast oscilloscope.
+\end_layout
+
+\begin_layout Section
+Аналіз Фур'є
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Fourier-Transform-**"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Дослідіть перетворення Фур'є сигналу.
+ Часовій і частотній області подання.
+ Дослідіть перетворення Фур'є для сигналу.
+ Часовій і частотній області подання.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ftran.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Встановіть 150 Гц на SQR1
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть A1 з CH1 а SQR1 з CH2
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть CH1 та CH2 з FTR, щоб побачити перетворення Фур'є
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/fft-sine147Hz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/fft-sqr150Hz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Frequency spectrum of (a)Sine wave.
+ (b) Squarewave
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Frequency-spectrum-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+На графіку перетворення Фур'є, частота знаходиться по осі х і вісь y показує
+ відносну силу кожного з частотних складових сигналу.
+ Це називається частотна область подання
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://en.wikipedia.org/wiki/Fourier_transform
+\end_layout
+
+\end_inset
+
+.
+ Для синусоїди є тільки один домінуючий пік, дрібні є мірою спотворення
+ синусоїди.
+\end_layout
+
+\begin_layout Standard
+Прямокутна функція може бути представлена у вигляді
+\begin_inset Formula $f(\theta)=sin(\theta)+\frac{sin(3\theta)}{3}+\frac{sin(5\theta)}{5}+\cdots$
+\end_inset
+
+.
+ У перетворенні Фур'є сигналу прямокутної форми з частотою 
+\begin_inset Formula $f$
+\end_inset
+
+ , буде 
+\begin_inset Formula $3f$
+\end_inset
+
+компонент (з амплітудою однієї третини 
+\begin_inset Formula $f$
+\end_inset
+
+ ), 
+\begin_inset Formula $5f$
+\end_inset
+
+ компонент (амплітуда одна п'ята) і т.д., як показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Frequency-spectrum-of"
+
+\end_inset
+
+(b).
+ Зверніть увагу, що пік на 0 Гц знаходиться у зв'язку з постійної складової.
+\end_layout
+
+\begin_layout Chapter
+Електрика та магнетизм
+\end_layout
+
+\begin_layout Standard
+Електромагнітна індукція може бути продемонстрована за допомогою падіння
+ магніту у котушці.
+ Робота трансформатора продемонстрована за допомогою двох котушок.
+ Простий генератор AC напруги, здатний генерувати багатофазний сигнал, може
+ бути продемонстрований за допомогою обертового магніту.
+\end_layout
+
+\begin_layout Section
+Електромагнітна індукція
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Побачити напругу, індуковану на обмотці за допомогою змінного магнітного
+ поля, за допомогою падіння маленького циліндричного магніту у котушці.
+ Використовуйте трубку для направлення магніту через котушку.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/induction.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+відкрийте 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EM Induction}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Натисніть Start Scanning.
+ Повинна з'явиться горизонтальна лінія
+\end_layout
+
+\begin_layout Itemize
+Киньте магніт через котушку, поки слід не спійманий.
+\end_layout
+
+\begin_layout Itemize
+Повторіть процес, змінюючи параметри, такі як сила магніту, швидкість і
+ т.д.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/induction-screen.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/transformer-screen.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a)Напруга, індукована на котушці рухомим магнітом.
+ (b)Взаємна індукція між двома котушками, показані застосована й наведена
+ напруга
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Voltage-induced-on"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Результат показаний на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Voltage-induced-on"
+
+\end_inset
+
+(a).
+ Амплітуда зростає із збільшенням швидкості магніту.
+ З графіка, ми можемо знайти час, який магніт подорожував через котушку.
+\end_layout
+
+\begin_layout Standard
+Другий пік більше, ніж перший .
+ Чому? Де буде магніт на перетині нульової наведеної напруги? Кидайте магніт
+ з різної висоти і побудуйте графік напруги від квадратного кореня з висоти.
+\end_layout
+
+\begin_layout Section
+Взаємна індукція, трансформатор
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Продемонструвати взаємну індукцію за допомогою двох котушок.
+ Одна з котушка живиться вихідною синусоїдальною напругою.
+ Осі котушок вирівняні і вставлений феритовий сердечник.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename schematics/tran.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Зв'язати A1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+TЗастосований і наведений сигнал зображені на малюнку 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Voltage-induced-on"
+
+\end_inset
+
+(2).
+ Зміни магнітного поля викликають індуковану напругу.
+ У попередніх двох експериментах, зміни у магнітному полі були створені
+ рухом постійних магнітів.
+ У даному випадку змінне магнітне поле створюється змінним струмом.
+\end_layout
+
+\begin_layout Standard
+На виході повинна бути така ж сама фаза, як і на вході відповідно до теорії.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://sound.westhost.com/xfmr.htm
+\end_layout
+
+\end_inset
+
+Проте, цього не відбувається, якщо зв'язок не дуже хороший (низька добротність).
+ З додаванням ферритового матеріалу, фазовий зсув, становиться як і очікувалося
+ з теорії.
+ Спробуйте зробити цей експеримент з використанням прямокутного 100 Гц,
+ 1000 Гц і т.д.
+ сигналу.
+ Підключіть 1k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ резистор паралельно вторинної обмотці з щоб зменшити брязкіт.
+\end_layout
+
+\begin_layout Section
+Простий генератор змінного струму
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:A-simple-AC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Виміряти частоту і амплітуду напруги, індукована індукованої на соленоїді
+ з допомогою обертового магніту.
+ Отримати деяке уявлення про генератори змінного струму, дивлячись на вихідні
+ характеристики та схему установки.
+ Використовуйте магніт розмірами 10 мм х 10 мм і котушку 3000T, яка поставляєтьс
+я у комплекті.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/ac-generator.png
+	width 4cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/ac-gen-screen.png
+	lyxscale 40
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Схема підключення і вихідна напруга генератора змінного струму, з котушок,
+ розташованих на протилежних сторонах обертового магніту.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:AC generator output"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Itemize
+Встановіть магніт горизонтально і підключіть двигун постійного струму до
+ 1,5 вольтової батарейки
+\end_layout
+
+\begin_layout Itemize
+Тримайте котушку, перпендикулярно до осі обертання двигуна, поруч з магнітом.
+ Будьте обережні і не торкайтеся до них.
+\end_layout
+
+\begin_layout Itemize
+Зв'язати A1 з CH1 та А2 з CH2
+\end_layout
+
+\begin_layout Itemize
+Зв'язати CH1 та CH2 з FIT
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Вихідна напруга показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:AC generator output"
+
+\end_inset
+
+.
+ Різниця фаз між двома напругами залежить від кута між осями двох котушок.
+\end_layout
+
+\begin_layout Standard
+Пронесіть закорочену котушку поруч з магнітом, щоб спостерігати зміну частоти.
+ Коротке замикання котушки забирає енергію від генератора і швидкість обертів
+ знижується.
+ Магнітне поле в цьому генераторі дуже слабке.
+ Опір котушки дуже високий, і намагання отримати з будь-який струм від неї
+ приведе до падіння більшої частини напруги на самій котушці.
+\end_layout
+
+\begin_layout Chapter
+Eлектроніка
+\end_layout
+
+\begin_layout Standard
+Нелінійні елементи, такі як діоди і транзистори вивчаються за допомогою
+ малювання кривих їх характеристик і збирання простих схем, щоб продемонструвати
+ їхнє функціонування.
+ Фото-транзистор використовується для вимірювання прозорості, передачі оптичного
+ сигналу і для синхронізації механічних рухів.
+ Розглядається амплітудна та частотна модуляція.
+ Для здійснення деяких експериментів, описаних на даному розділі, нам знадобитьс
+я макетна плата.
+\end_layout
+
+\begin_layout Section
+Однополуперіодний випрямляч, PN перехід
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Вивчити роботу PN діода.
+ Випрямлення напруги (перетворення змінної синусоїдальної напруги на постійну).
+ Фільтрація для зменшення змінної складової струму.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/half-wave-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/half-wave-filter-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Однополуперіодний випрямляч вхід та вихід.(b) З конденсаторним фільтром.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diode-rectifier"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/half-wave.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть A1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Itemize
+Додати різні конденсатори фільтру між A2 та землею
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Діод видаляє негативний напівперіод, як показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diode-rectifier"
+
+\end_inset
+
+(a).
+ Також зверніть увагу, що напруга в позитивній половині зменшується приблизно
+ на 0,7 вольти, це падіння напруги на кремнієвому діоді.
+ Опір навантаження потрібен для правильної роботи схеми, він може бути більш
+ 1k
+\begin_inset Formula $\Omega$
+\end_inset
+
+але не треба використовувати дуже маленькі значення, так як наше джерело
+ AC струму може давати тільки до 5 мА.
+\end_layout
+
+\begin_layout Standard
+Вплив конденсатора показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diode-rectifier"
+
+\end_inset
+
+(b).
+ Ми бачимо, що конденсатор заряджається а потім протягом зниклого циклу
+ підтримує напругу.
+ Решта складових струму називається пульсації в DC.
+\end_layout
+
+\begin_layout Standard
+Чи можемо ми використовувати дуже велику ємність, щоб зменшити пульсації?
+\end_layout
+
+\begin_layout Standard
+Протягом якої частини циклу діод пропускає струм?
+\end_layout
+
+\begin_layout Standard
+Чим визначається пікове значення струму?
+\end_layout
+
+\begin_layout Section
+180
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+різниця фаз синусоїдального сигналу
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Щоб продемонструвати роботу двополуперіодного випрямляча за допомогою двох
+ діодів, нам потрібні два сигнали AC , що розрізняються на 180 градусів
+ по фазі.
+ Ми робимо це шляхом інвертування виходу SINE за допомогою інвертуючого
+ підсилювача.
+ Посилення робиться близько одиниці шляхом подачі на вхід підсилювача сигналу
+ через 51k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ резистора.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/ac-invert.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/full-wave.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a)Iнвертуючий підсилювач змінює фазу синусоїдального сигналу на 180
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+.(b)Двополуперіодний випрямляч, два входи і один вихід.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inverting-Amplifier-making"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ac-invert.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть A1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Itemize
+Клацніть правою кнопкою миші на CH1 для вимірювання різниці фаз
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Результат показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inverting-Amplifier-making"
+
+\end_inset
+
+.
+ Амплітуди не в точності рівні.
+ Коефіцієнт підсилення становить 
+\begin_inset Formula $G=\frac{51000}{51000+1000}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Двополуперіодний випрямляч
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Зробити двополуперіодний випрямляч, за допомогою двох діодів.
+ Два сигнали, що відрізняються 180 градусів по фазі, виготовлені, як описано
+ в попередньому розділі.
+ Випрямлений вихід з'єднаний з третім каналом.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/full-wave.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть A1 з CH1, A2 з CH2 та IN1 з CH3
+\end_layout
+
+\begin_layout Itemize
+Додати конденсатор від IN1 на землю, для фільтрації.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Результат показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inverting-Amplifier-making"
+
+\end_inset
+
+.
+ Додавання конденсаторів для зменшення пульсацій залишається як вправа для
+ користувача.
+ Цей експеримент призначений лише для демонстрації роботи двополуперіодного
+ випрямляча, він не може забезпечити більше декількох міліампер струму.
+\end_layout
+
+\begin_layout Standard
+Чому двополуперіодний випрямляч краще за однополуперіодний?
+\end_layout
+
+\begin_layout Section
+ВАХ діода
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Намалювати ВАХ діода і порівняти результат з теорією.
+ ВАХ ідеального PN переходу діода визначається рівнянням
+\begin_inset Formula $I=I_{0}\left(e^{\frac{qV}{kT}}-1\right)$
+\end_inset
+
+, де 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ це зворотний струм насичення, 
+\begin_inset Formula $q$
+\end_inset
+
+ заряд електрона, 
+\begin_inset Formula $k$
+\end_inset
+
+ постійна Больцмана, 
+\begin_inset Formula $T$
+\end_inset
+
+ температура в градусах Кельвіна.
+ Для фізичного, неідеального діода, рівняння 
+\begin_inset Formula $I=I_{0}\left(e^{\frac{qV}{nkT}}-1\right)$
+\end_inset
+
+, де 
+\begin_inset Formula $n$
+\end_inset
+
+ коефіцієнт ідеальності, тобто 1 для ідеального діода.
+ Для фізичних діодів вона коливається від 1 до 2.
+ Ми використовували кремнієвий діод IN4148.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename schematics/diode-iv.png
+	width 3cm
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ вибрати 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Diode IV}
+\end_layout
+
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Itemize
+Натисніть на START, щоб намалювати криву характеристики.
+\end_layout
+
+\begin_layout Itemize
+Натисніть на опцію FIT, щоб обчислити фактор ідеальності діода.
+\end_layout
+
+\begin_layout Itemize
+Побудуйте ВАХ світлодіодів
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/diode-iv-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/led-iv-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+I-V характеристики (a) Кремнієвого діоду (b) Декількох світлодіодів
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:I-V-characteristic-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The curves obtained are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:I-V-characteristic-of"
+
+\end_inset
+
+(a).
+ The value of n for 1N4148 is around 2.
+ We have calculated the value of 
+\begin_inset Formula $n$
+\end_inset
+
+ by fitting the experimental data with the equation
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+If the FIT is not successful, transfer data to 
+\shape italic
+xmGrace
+\shape default
+ and use the option Data->Transformations->Nonlinear curve fitting with
+ equation y=a0*exp(a1*x).
+ 
+\end_layout
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:I-V-characteristic-of"
+
+\end_inset
+
+(b) shows the IV curves of few LEDs, of different wavelengths.
+ 
+\end_layout
+
+\begin_layout Standard
+The voltage at which LED starts emitting light depends on its wavelength
+ and Planck's constant.
+ Energy of a photon is given by 
+\begin_inset Formula $E=h\nu=hc/\lambda$
+\end_inset
+
+ .
+ This energy is equal to the energy of an electron that overcomes the junction
+ barrier and is given by 
+\begin_inset Formula $E=eV_{0}$
+\end_inset
+
+.
+ So Planck's constant 
+\begin_inset Formula $h=eV_{0}\lambda/c$
+\end_inset
+
+ , where 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the wavelength of light from the LED, 
+\begin_inset Formula $e$
+\end_inset
+
+ the charge of electron and 
+\begin_inset Formula $c$
+\end_inset
+
+ the velocity of light.
+ 
+\end_layout
+
+\begin_layout Standard
+Repeat the experiment by heating the diode to different temperatures.
+\end_layout
+
+\begin_layout Section
+Вихідна характеристика транзистора
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Transistor-CE-Characteristic"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Намалювати криві вихідних характеристик транзистора.
+ Колектор з'єднаний з PVS через 1K резистор.
+ Напруга на базі отримана шляхом фільтрації змінного робочого циклу імпульсу
+ з SQR1.
+ Струм на базі визначається цією напругою і 200
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ резистором.
+ Для отримання кращого результату, використовуйте зовнішнє джерело DC (підійде
+ звичайна батарейка 1.5В) для живлення бази.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/transistor-ce.png
+	width 4cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/transistor-ce.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Характеристики транзистора при підключенні із загальним эмітером.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Transistor-common-emitter"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Itemize
+З 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ відкрийте 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Transistor CE}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Введіть Bias - напругу живлення на базі та виберіть START.
+ Повторіть ці дії для різних Ub.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Характерні криві для різних базових струмів показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transistor-common-emitter"
+
+\end_inset
+
+.
+ Струм на колекторі отриманий з падіння напруги на резисторі 1k.
+\end_layout
+
+\begin_layout Standard
+Струм на базі встановлюється шляхом установки напруги на одному кінці 200
+ k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ резистора, інший кінець підключений до бази транзистора.
+ Значення базового струму обчислюється шляхом 
+\begin_inset Formula $I_{b}=\frac{V_{bias}-0.6}{200\times10^{3}}\times10^{6}\mu A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Передача світла, фото-транзистор
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Виміряти пропускання світла через напівпрозорий матеріал з використанням
+ фото-транзистора.
+ Матеріал розміщують між світлодіодом і фото-транзистором.
+ Колекторний струм залежить від кількості світла, що потрапляє на транзистор.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/light-tranmission.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Встановіть 0 Гц на SQR1, для включення світлодіода
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть SEN з CH1
+\end_layout
+
+\begin_layout Itemize
+Виміряйте напругу на SEN, клацнувши по ньому.
+\end_layout
+
+\begin_layout Itemize
+Повторіть шляхом зміни матеріалу між світлодіодом і фото-транзистором.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Напруга на колекторі фото-транзистора зменшується з інтенсивністю світла,
+ що падає на транзистор.
+ Напруга, виміряна після розміщення аркушу паперу між світлодіодом і фото-транзи
+стором показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Phototransistor output"
+
+\end_inset
+
+(a).
+\end_layout
+
+\begin_layout Section
+Передача оптико-електричного сигналу
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Demonstrate the transmission of signals using light.
+ An LED is powered by a 1kHz signal and the light is made to fall on a photo-tra
+nsistor.
+ The SEN input is internally connected to 5 volts through a 5.1k resistor.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/opto-electric.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Тримайте світлодіод перед фото-транзистором і встановіть 1000 Гц на SQR1
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть SQR1 з CH1 і SEN з CH2
+\end_layout
+
+\begin_layout Itemize
+Повторіть експеримент шляхом зміни частоти.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/light-transmission.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/opto-electric-transmission.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Напруга на фото-транзисторі, світло на який проходить крізь аркуш паперу.
+ (b) Передача імпульсів, Напруга живлення світлодіода і напруга на фото-транзист
+орі.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Phototransistor output"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вихід фото-транзистора на частоті 1 кГц показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Phototransistor output"
+
+\end_inset
+
+.
+ Графік прямокутної напруги на світлодіоді.
+ Коли світлодіод включається - фото-транзистор починає проводити і напруга
+ на колекторі падає до 0,2 вольт.
+ Коли світлодіод не горить фото-транзистор переходить в режим відсічення
+ і колектор показує майже напругу живлення.
+ Час збільшення та зменшення напруги на транзисторі відрізняється.
+\end_layout
+
+\begin_layout Standard
+Повторіть цей експеримент з волоконно-оптичним кабелем для передачі світла
+ від світлодіода до фото-транзистор.
+\end_layout
+
+\begin_layout Section
+IC555 Генератор
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Зробити астабільний мультивібратор з використанням IC555 і виміряти його
+ частоту та робочий цикл.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Itemize
+Встановіть на OD1 високий, рівень для живлення IC555
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть IN1 з CH1 і включіть опцію FIT на CH1.
+\end_layout
+
+\begin_layout Itemize
+Клацніть правою кнопкою миші на IN1 для вимірювання частоти і робочого циклу.
+\end_layout
+
+\begin_layout Itemize
+Повторіть змінивши значення R1
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/osc555.png
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/ic555-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+IC555 астабільний мультивібратор.(a) Схема (b) Форма вихідного сигналу
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:IC555-astable-multi-vibrator."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вихідний сигнал схеми показано на малюнку 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:IC555-astable-multi-vibrator."
+
+\end_inset
+
+.
+ Включення TLP на OD1 встановлює на ньому рівень HIGH і генерує 1 мікросекунді
+ імпульси як раз перед захопленням виходу.
+ Для отримання більш точних результатів треба використовувати ltpulse2ftime(10,3
+), який буде вимірювати затримку імпульсу, заданого на OD1 до заднього фронту
+ на IN1.
+\end_layout
+
+\begin_layout Section
+IC555 Чекаючий мультивібратор(одновібратор)
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Зробіть одновібратор за допомогою IC555 і виміряйте час затримки, на різних
+ значеннях RC.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Itemize
+Встановіть 0 Гц на SQR2 (щоб встановити на ньому 5V DC)
+\end_layout
+
+\begin_layout Itemize
+Введіть
+\shape italic
+set_pulsewidth(1)
+\shape default
+ у вікні командного рядка.
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть TLP (Low True Pulse) з OD1, запустіть вхід для 555
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть IN1 з CH1, поспостерігайте його шляхом зміни R1
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/mono555.png
+	lyxscale 80
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/mono555-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+IC555 чекаючий мультивібратор.(a) Схема (b) Форма вихідного сигналу
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:IC555-astable-multi-vibrator.-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Логічні вентилі
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Вивчення логічних вентилів за допомогою двох прямокутних хвиль з різницею
+ фаз, за допомогою TTL логічних інтегральних схем 7408 та 7432.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/and-gate.png
+	height 1cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename schematics/or-gate.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть SQR1 з CH1, SQR2 з CH2 та IN1 з CH3
+\end_layout
+
+\begin_layout Itemize
+Установіть 100Hz, 25{
+\backslash
+%} та активуйте SQR1 та SQR2
+\end_layout
+
+\begin_layout Itemize
+Виділіть OD1, для живлення TTL AND елемента 7408
+\end_layout
+
+\begin_layout Itemize
+Повторіть те ж саме і для OR елемента 7432
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/and-gate.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/or-gate.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Робота логічних інтегральних схем з прямокутною хвилею.(a)AND елемент (b)
+ OR елемент
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Operation-of-logic"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вхідні і вихідні сигнали наведені на малюнку 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Operation-of-logic"
+
+\end_inset
+
+.
+ Результати не будуть точними на високих частотах, тому що частота дискретизації
+ обмежується навколо 80000 в секунду для 3 каналів.
+\end_layout
+
+\begin_layout Section
+Дільник частоти
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Вивчення дільника частоти з використанням D-тригера (TTL сім'ї, 7474).
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/clock-divider.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Встановіть 500 Гц на SQR1.
+ Зв'яжіть SQR1 з CH1 та IN1 з CH2
+\end_layout
+
+\begin_layout Itemize
+Виберіть OD1, для живлення тригера
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Вихід перемикається на кожному наростаючому фронті на вході, ділячи результуючу
+ частоту на два.
+ На виході з'являється симетричний прямокутний сигнал, незалежно від робочого
+ циклу вхідного імпульсу.
+ Високий рівень на виході TTL IC становить близько 4 вольт.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/clock-divider.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/clock-divider2.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Схема дільника частоти з використанням D-тригера.
+ Виходи для двох різних типів вхідних сигналів
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A-clock-divider-1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Неінвертуючий підсилювач
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Non-inverting-Amplifier"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Зробити неінвертуючий підсилювач, використовуючи ОП OP27 та виміряти підсилення.
+ Підсилення і вхід мають бути обрані таким чином, щоб вихід знаходився в
+ діапазоні від від 0 до 5 вольт, в іншому випадку прилад буде працювати
+ неправильно.
+ Операційний підсилювач живиться від зовнішнього 
+\begin_inset Formula $\pm9V$
+\end_inset
+
+ живлення.
+ Резистор додається для запобігання пошкодження expEYES від перенапруги.
+ Ця схема буде корисно при вимірюванні температури за допомогою PT100 та
+ expEYES.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/amp-test.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Щоб дізнатися зміщення, підключіть вхід підсилювача до "землі" і виміряйте
+ вихід.
+\end_layout
+
+\begin_layout Itemize
+Установіть 0,1 вольт на PVS і натисніть на IN1 для реєстрації вихідної напруги
+\end_layout
+
+\begin_layout Itemize
+Повторіть це для декількох вхідних напруг
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Ri$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Rf$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1+\frac{Rf}{Ri}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Uin$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Uout$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{Uout}{Uin}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1k
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10k
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.105
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.05
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Амплітудна та Частотна модуляція
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Вивчення амплітудної та частотної модуляції сигналу.
+ Проаналізувати вихід AM математично, щоб побачити бічні смуги.
+ Цей експеримент вимагає джерела модульованого сигналу, ми використали PHOENIX
+ Analog Box.
+\end_layout
+
+\begin_layout Standard
+Phoenix Analog Box має генератор синусоїдальних хвиль (близько 100 Гц),
+ амплітуда може управлятися за допомогою постійної напруги.
+ Пристрій, також, має 4 кГц синусоїдальний генератор з керуючими входами
+ АМ і FM.
+ Використовуйте PVS для зміни глибини модуляції шляхом зміни амплітуди 100
+ Гц синусоїди.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/am.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З'єднайте Analog Box і expEYES землю.
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть A1 з CH1 та A2 з CH2
+\end_layout
+
+\begin_layout Itemize
+Захопіть 900 семплів з 20 мікросекундними інтервалами
+\end_layout
+
+\begin_layout Itemize
+Відключіть А2 і захопіть 1800 семплів
+\end_layout
+
+\begin_layout Itemize
+Натисніть на Power Spectrum, щоб показати перетворення Фур'є.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/am-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/am-ftran.png
+	lyxscale 50
+	width 4.6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Модульована хвиля і її спектр Фур'є.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Amplitude-modulation"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Сигнал з несучою частотою близько 4 кГц модулюється синусоїдою близько 100
+ Гц.
+ Невелика частина вихідного сигналу (400 точок з 20 мкс розривами) разом
+ з модулюючим сигналом показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Amplitude-modulation"
+
+\end_inset
+
+(b).
+ Спектр розраховується за допомогою перетворення Фур'є.
+ Щоб отримати кращі результати, треба використовувати більш велику вибірку.
+ Для цієї мети береться (1800 зразків з 50 мкс розривами).
+ Виміряні бічні смуги чітко отримані по обидві сторони від піку несучої,
+ розділені модулюючою частотою.
+\end_layout
+
+\begin_layout Standard
+Вихід AM схожий із звуковими ритмами, отриманими у розділі
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Interference-of-sound"
+
+\end_inset
+
+, але спектр ритмів має два піки на відповідних окремих частотах.
+ Чим вони відрізняються, незважаючи на подібність?
+\end_layout
+
+\begin_layout Standard
+Що до частотної модуляції, зміна з'єднання з AM на FM, залишається в якості
+ вправи для користувача.
+\end_layout
+
+\begin_layout Chapter
+Звук
+\end_layout
+
+\begin_layout Standard
+Зміна тиску, близько рівноважної тиску, передана через середовище називається
+ звук.
+ Він являє собою поздовжні хвилі.
+ Переміщення аркуша паперу назад і вперед на повітрі може генерувати такі
+ ж самі хвилі тиску, як і паперовий дифузор гучномовця.
+ Коли частота знаходиться в межах від 20 до 20000 Гц, ми можемо почути звук.
+ У цьому розділі ми будемо генерувати звук за допомогою електричних сигналів,
+ виявляти їх за допомогою вбудованого мікрофона (датчик тиску) та вивчати
+ властивості такі як амплітуда та частота.
+ Швидкість звуку вимірюється шляхом спостереження фазового зсуву оцифрованого
+ звуку з відстанню.
+\end_layout
+
+\begin_layout Section
+Частота звуку
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Sound Frequency"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Оцифрувати звук і виміряти його частоту.
+ Використовуйте п'єзозумер або будь-яке інше джерело звуку, як камертон.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Установіть 3500Hz на SQR1, тримати зумер перед мікрофоном
+\end_layout
+
+\begin_layout Itemize
+Включити опцію FIT для вимірювання частоти
+\end_layout
+
+\begin_layout Itemize
+Повторіть з іншими джерелами звуку
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Підсилений вихідний сигнал мікрофона показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Digitized-sound"
+
+\end_inset
+
+(a).
+ Амплітуда буде максимальною при частоті близько 3500 Гц, через резонанс.
+ Використання 1200 Гц дає більшу амплітуду, ніж 2000 Гц, у зв'язку з третьою
+ гармонікою прямокутного сигналу, відповідного до резонансної частоти.
+\end_layout
+
+\begin_layout Standard
+Звукові хвилі створюють коливання тиску у середовищі, через які він подорожує.
+ Мікрофон генерує напругу, пропорційну до тиску.
+ Так як цей сигналом дуже малий, то ми підсилили його в 51 раз, перш ніж
+ його оцифрувати.
+ Зміни напруги знаходяться в гармонії із змінами тиску.
+ Ви можете розглядати мікрофон як датчик тиску, але працюючий тільки для
+ змінюючогося в часі тиску.
+\end_layout
+
+\begin_layout Section
+Частотна характеристика п'єзо
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Resonance-frequency-of"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Вивести криву частоти відгуку п'єзо диска шляхом сканування частот і вимірювання
+ амплітуди на виході мікрофону.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/sound-frequency.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/piezo-freq-resp.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Оцифровані звукові хвилі (b)Крива відгуку частоти п'єзо диска
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Digitized-sound"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ виберіть 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Frequency Response}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Натисніть кнопку START
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Залежність частоти від амплітуди показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Digitized-sound"
+
+\end_inset
+
+(b).
+ Амплітуда буде максимальною при частоті близько 3700 Гц.
+\end_layout
+
+\begin_layout Section
+Швидкість звуку
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Розрахуйте швидкість звуку шляхом вимірювання зміни тиску з відстанню.
+ Звук приходить у вигляді послідовності стиснень і розріджень.
+ Малюнок
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sound-waves"
+
+\end_inset
+
+(a) показує максимальний і мінімальний регіони тиску вздовж напрямку руху,
+ поряд з виходом датчика тиску у відповідних позиціях.
+\end_layout
+
+\begin_layout Standard
+Ми можемо відобразити зміну тиску в будь-якій точці по відношенню до різних
+ початкових точок.
+ Фаза на виході мікрофона змінюється зі зміною відстані мікрофона до п'єзо
+ випромінювача.
+ Переміщення на одну довжину хвилі змінює фазу на 360 градусів.
+ Якщо фаза змінюється на 
+\begin_inset Formula $X$
+\end_inset
+
+ градусів при переміщенні на 
+\begin_inset Formula $\triangle D$
+\end_inset
+
+ cm, довжина хвилі буде максимальною при частоті 
+\begin_inset Formula $\lambda=\frac{360\times\triangle D}{X}$
+\end_inset
+
+ .
+ Швидкість звуку може бути розрахована якщо отримане значення помножити
+ на частоту.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/sound_waves.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/velocity-sound.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a)Поширення звукових хвиль, зміна виходу мікрофона з тиском.
+ (b) Вихід мікрофона.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sound-waves"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ запустіть 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Velocity of Sound}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Установіть частоту резонансного максимуму шляхом вимірювання частоти відгуку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Resonance-frequency-of"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Тримайте п'єзо перед мікрофоном, на одній осі
+\end_layout
+
+\begin_layout Itemize
+Виміряти різницю фаз на різних відстанях.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+На 3500 Гц, для змін у відстані 2 см - фаза змінюється від 176 до 102.
+ Використовуючи рівняння
+\begin_inset Formula $v=f\times\frac{360\times\triangle D}{X}=3500\times\frac{360\times2}{(176-102)}=34054$
+\end_inset
+
+ см/сек.
+ Важливо, щоб тримати мікрофон і п'єзо диск на тій же осі, для точних результаті
+в.
+\end_layout
+
+\begin_layout Section
+Інтерференція звуку
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Interference-of-sound"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Вивчення інтерференції звука з двох окремих джерел.
+ Два п'єзо випромінювача живляться від двох різних джерел, і звук направлений
+ в сторону мікрофону.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/inter-sound.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/beats-ftran.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Сума звуків двох сусідніх частот (b) Перетворення Фур'є, що показує
+ частотні компоненти.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SoundBeats"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound-inter.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ запустіть 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Interference of Sound}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Установіть 3500 Гц на SQR1 і 3600 Гц на SQR2
+\end_layout
+
+\begin_layout Itemize
+Відрегулюйте положення п'єзовипромінювача, по відношенню до мікрофона, щоб
+ отримати чіткий патерн биття.
+\end_layout
+
+\begin_layout Itemize
+Повторіть з іншими значеннями частот.
+\end_layout
+
+\begin_layout Itemize
+Захватіть з NC=1800 і використати перетворення Фур'є
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+На малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SoundBeats"
+
+\end_inset
+
+(a) можна бачити, як створюється низькочастотний конверт.
+ Відстань між двома мінімальними точками тиску конверта випромінювача відповідає
+ довжині хвилі биття.
+ Перетворення Фур'є для вихідного сигналу показано на малюнку 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SoundBeats"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Вимушені коливання п'єзоелектричного кристала
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Study the behavior of a Piezo-electric disc at low excitation frequencies,
+ using a square wave.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ відкрийте 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Interference of Sound}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Виберіть тільки SQR1 і встановіть на ньому 100
+\end_layout
+
+\begin_layout Itemize
+Натисніть START, щоб захопити вихід мікрофону
+\end_layout
+
+\begin_layout Itemize
+Спробуйте різні частоти
+\end_layout
+
+\begin_layout Itemize
+Захопіть з більшим NS (<=1800) для перетворення Фур'є.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Резонансна частота п'єзоелектричного кристала буде приблизно 3600 Гц.
+ Керований прямокутними імпульсами, п'єзоелектричний кристал отримує удар
+ на кожному зростанні і спаді напівхвилі, і кілька циклів коливань проходять
+ на його власній резонансній частоті.
+ Перетворення Фур'є показує пік на резонансній частоті і бічну смугу 200
+ Гц, відокремлену від піку.
+ Може бути цікаво повторити це дослідження з використанням змінної частоти
+ синусоїдальної хвилі замість прямокутного сигналу.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/piezo-drive100Hz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/piezo-drive100hz-fft.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Вихід звуку з п'єзо випромінювача, на який подано 100Hz сигнал і перетворення
+ Фур'є сигналу.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Захоплення гучного звуку
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Оцифрувати звук з тимчасового джерела.
+ Дзвоник або дві металеві пластини можуть бути використані як джерело звуку.
+ Захоплення звуку синхронізовано гучним звуком, коли очікується, щоб на
+ виході мікрофону був рівень вище порогового значення.
+ Кращий спосіб це зробити - виставити високий рівень на IN1 і щоб механізм
+ захоплення чекав цього.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound-burst.png
+	height 1.2cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ виберіть 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Capture Burst of Sound}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Виберіть Wait на HIGH, коли діод і резистор підключені.
+\end_layout
+
+\begin_layout Itemize
+Натисніть на 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Start Scanning}
+\end_layout
+
+\end_inset
+
+ та відтворіть звук.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Сплеск звуку захоплено, як показано нижче.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pics/sound-burst.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Механіка, оптика та тепло
+\end_layout
+
+\begin_layout Standard
+Резонансні явища вивчається за допомогою керованого маятника.
+ Значення прискорення вільного падіння вимірюється за допомогою маятника.
+ Охолодження рідини вивчається за допомогою датчика PT100.
+\end_layout
+
+\begin_layout Section
+Резонанс керованого маятника
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Продемонструвати резонанс керованого маятника.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+Make a pendulum using two button magnets and a piece of paper.
+ Зробіть маятник за допомогою двох магнітів і листка паперу.
+ Закріпіть його, і помістіть 3000T котушку близько до маятника
+\end_layout
+
+\begin_layout Itemize
+Підключіть котушку між SQR1 і землею
+\end_layout
+
+\begin_layout Itemize
+З 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ виберіть 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Driven Pendulum}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Дуже повільно збільшуйте частоту, починаючи з 1 Гц.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Коли SQR1 досягає резонансної частоти маятника - амплітуда підвищується
+ через резонанс.
+ Маятник 4 cm (від центру магніту до осі гойдання) довжини резонує на частоті
+ близько 2,5 Гц, майже відповідаючи його розрахованій власній частоті.
+ Резонансна частота маятника задається формулою 
+\begin_inset Formula $f=\frac{1}{2\pi}\sqrt{\frac{g}{\ell}}$
+\end_inset
+
+, де 
+\begin_inset Formula $\ell$
+\end_inset
+
+ це відстань від центру магніту до точки підвісу і 
+\begin_inset Formula $g$
+\end_inset
+
+ це прискорення вільного падіння.
+ 
+\end_layout
+
+\begin_layout Standard
+Повторіть експеримент, змінивши довжину маятника.
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+SQR1 не може опускатися нижче 0.7 Hz
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Значення 'g', Стрижневий маятник
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Виміряти період коливань стрижневого маятника за допомогою оптопари і обчислити
+ значення прискорення вільного падіння.
+ Період коливань однорідного стрижня близько одного кінця задається формулою
+\begin_inset Formula $T=2\pi\sqrt{\frac{2\ell}{3g}}$
+\end_inset
+
+, де 
+\begin_inset Formula $\ell$
+\end_inset
+
+ це довжина і 
+\begin_inset Formula $g$
+\end_inset
+
+ це прискорення вільного падіння.
+ Маятник (у вигляді літери T, лезо ножа прикріплено до стрижня діаметром
+ 6мм) зроблений щоб коливатися між світлодіодом і фото-транзистором, підключеним
+ до expEYES.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/light-barrier.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ запустіть 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Rod Pendulum}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Гойдніть маятник і натисніть на START
+\end_layout
+
+\begin_layout Itemize
+Повторіть з різними довжинами маятника.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Період часу, вимірюється 50 разів, з використанням 14.6cm стрижневого маятника
+ середнє значення становить 0,627 секунди.
+ Розраховане значення 'g' становить 977.4
+\begin_inset Formula $cm/sec^{2}$
+\end_inset
+
+, трохи відрізняється від фактичного значення за наступних причин.
+ Довжина вимірюється від гострої кромки до низу і використовується у формулі.
+ Але є невелика маса над вістрієм ножа, яку не включено до розрахунку.
+ Інша причина полягає в тому, що маятник не може бути точно вертикальним
+ в стані спокою.
+\end_layout
+
+\begin_layout Section
+Коливання маятника
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Вивчення природи коливань маятника.
+ Датчик кута потрібно для вимірювання кутового переміщення в залежності
+ від часу.
+ Але за допомогою двигуна постійного струму в якості датчика, ми можемо
+ виміряти кутову швидкість як функцію часу.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Itemize
+Приєднайте якийсь жорсткий маятник до осі двигуна.
+\end_layout
+
+\begin_layout Itemize
+Підключіть двигун між IN і GND
+\end_layout
+
+\begin_layout Itemize
+Підключіть OUT до A1
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ запустіть 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Pendulum Waveform}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Гойдніть маятник та почніть оцифровку
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Спостережувані сигнали показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cooling-curve-of"
+
+\end_inset
+
+(a).
+ Розрахунок з використанням рівняння 
+\begin_inset Formula $A=A_{0}sin\left(\omega t+\theta\right)*\exp\left(-dt\right)+C$
+\end_inset
+
+, використовуючи Grace дала кутову частоту 10 Гц.
+\end_layout
+
+\begin_layout Standard
+Маятник має бути зроблено з важким тягарцем і вісі легкої ваги, що з'єднує
+ його з віссю двигуна.
+ У цьому випадку двигун постійного току діє як генератор і напруга буде
+ пропорційною до миттєвої кутової швидкості.
+\end_layout
+
+\begin_layout Section
+Вимірювання температури, PT100
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Записати температуру рідини за допомогою платинового резистивного термодатчику.
+ Опір елемента PT100 пов'язаний з температурою рівнянням 
+\begin_inset Formula $R_{T}=R_{0}\left[1+AT+BT^{2}\right]$
+\end_inset
+
+, де 
+\begin_inset Formula $A=3.9083e-3$
+\end_inset
+
+ та 
+\begin_inset Formula $B=-5.775e-7$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Це вимагає неінвертуючого підсилювача з малим зміщенням, так що ми можемо
+ використовувати від 0 до 5V з входу IN1.
+ У зв'язку з тим, що його немає на expEYES Junior, ми використовуємо інвертуючий
+ підсилювач після зниження його посилення за допомогою резисторів і підключення
+ виходу до A1.
+ В цьому випадку буде не дуже добра точність, але коливання температури
+ можуть бути вивчені.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+Щоб виміряти опір елемента PT100, ми з'єднуємо його з CCS та землею і вимірюємо
+ напругу через нього.
+ Фактичний струм через CCS слід вимірювати, як описано в розділі
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Calibrating-Current-Source"
+
+\end_inset
+
+Напруга на CCS посилюється за допомогою зовнішнього DC підсилювача (посилення
+ = 11).
+ 
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename schematics/pt100.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ запустіть 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{PT100 Sensor}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Введіть виміряне значення струму.
+\end_layout
+
+\begin_layout Itemize
+Виберіть необхідні параметри та натисніть START
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Опір PT100 становить
+\begin_inset Formula $100\Omega$
+\end_inset
+
+ на 
+\begin_inset Formula $0^{0}C$
+\end_inset
+
+ .
+ Він змінюється майже на 
+\begin_inset Formula $0.4\Omega/C$
+\end_inset
+
+ , змінюючи напругу на 0,4 мілівольти.
+ У 12 розрядному АЦП виведення змінюється на 1 LSB на 1,22 мВ зміни вхідної
+ напруги, отже, будь-яка зміна температури менше 3 градусів не буде виявлена.
+ Використовуйте зовнішній неінвертуючий підсилювач, щоб збільшити розподільчу
+ здатність.
+ Коефіцієнт підсилення підсилювача повинен бути таким, щоб максимальна температу
+ра, що вимірюється дала на виході менше 5 вольт.
+ Відповідно змініть запис поля посилення.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/pendulum-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/cooling-curve.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Оцифровані коливання маятника.
+ (b)Графік охолодження води
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cooling-curve-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Крива охолодження води показана на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cooling-curve-of"
+
+\end_inset
+
+.
+ Температура змінюється великими кроками, це може бути змінено за допомогою
+ підсилювача між CCS і IN1, як описано в розділі 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Non-inverting-Amplifier"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Замість того, щоб вимірювання струм та розрахунку фактичної посилення підсилювач
+а, можна провести процедуру калібрування для отримання хороших результатів.
+ Ця процедура передбачає лінійну зміну опору з температурою.
+ Для калібрування, помістіть датчик на льоду і натисніть на
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Freezing Point}
+\end_layout
+
+\end_inset
+
+.
+ Занурте датчик в киплячу воду і натисніть на 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Boiling Point}
+\end_layout
+
+\end_inset
+
+.
+ Після цього натисніть на 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Calibrate}
+\end_layout
+
+\end_inset
+
+.
+ Після калібрування температура обчислюється з використанням калібрувальних
+ констант.
+\end_layout
+
+\begin_layout Section
+Стробоскоп
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Об'єкт, виконуючи періодичні рухи, здається нерухомим при освітленні світловими
+ імпульсами тієї ж частоти, так як об'єкт висвітлюється кожен раз тільки
+ тоді, коли він досягає тієї ж точки.
+ Якщо частоти трохи відрізняються, буде здаватися, що він рухається з різницею
+ в частоті.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Itemize
+З
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ виберіть 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Stroboscope}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Підключіть білий світлодіод між SQR1 та землею
+\end_layout
+
+\begin_layout Itemize
+Підключіть двигун до батареї і освітите його світлодіодом
+\end_layout
+
+\begin_layout Itemize
+Відрегулюйте SQR1 щоб двигун показався завмерлим.
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Під час регулювання SQR2, рух диску на осі двигуна здається сповільнюється
+ і згодом починає рухатися в зворотньому напрямку.
+ Запишіть частоту зміни напрямку.
+\end_layout
+
+\begin_layout Standard
+Коли дивитися в світлі, що мерехтить з частотою 11 Гц, двигун, що обертається
+ з частотою 10 обертів на секунду, буде виглядати, як той що обертається
+ проти годинникової стрілки один раз на секунду.
+ Під час зупинки і запуску, стельові вентилятори іноді виглядають як ті
+ що обертаються у зворотному напрямку, у світлі люмінесцентних ламп.
+\end_layout
+
+\begin_layout Standard
+Як регулюється частота обертання двигуна автомобіля?
+\end_layout
+
+\begin_layout Section
+Швидкість обертання двигуна
+\end_layout
+
+\begin_layout Subsection*
+Мета
+\end_layout
+
+\begin_layout Standard
+Дізнатися про те, як зробити датчики для виявлення механічних рухів.
+ Використовуйте фото-транзистор, щоб знайти швидкість обертання двигуна.
+\end_layout
+
+\begin_layout Subsection*
+Процедура
+\end_layout
+
+\begin_layout Standard
+Один лист прикріплений до двигуна і поміщається між фото-транзистором та
+ світлодіодом, перехоплюючи світло один раз протягом кожного оберту.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/motor-rpm.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Встановіть 100 Гц на SQR2, для обертання двигуна
+\end_layout
+
+\begin_layout Itemize
+Зв'яжіть SEN з CH1
+\end_layout
+
+\begin_layout Itemize
+Клацніть правою кнопкою миші на SEN для вимірювання частоти (FIT опція може
+ не працювати для цих імпульсів)
+\end_layout
+
+\begin_layout Subsection*
+Спостереження
+\end_layout
+
+\begin_layout Standard
+Вихід фото-транзистора приймає високий рівень, коли між ним і світлом знаходитьс
+я перешкода.
+ Спостережувані значення можуть бути перевірені ще раз за допомогою магніту
+ і котушки, як описано в розділі
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:A-simple-AC"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Chapter
+Кодування для expEYES в Python
+\end_layout
+
+\begin_layout Standard
+Програми з графічним інтерфейсом, описані в попередніх розділах призначені
+ для фіксованого набору експериментів.
+ Щоб розробити нові експерименти, потрібно знати, як отримати доступ до
+ функцій expEYES Junior з програмного забезпечення.
+ Важливі виклики функцій, що використовуються для зв'язку з пристроєм, наводятьс
+я нижче.
+ Для більш детальної інформації, зверніться до
+\emph on
+ Керівництва програміста
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Установка Python бібліотек
+\end_layout
+
+\begin_layout Standard
+Пакет expEYES Junior складається з трьох файлів (eyesj.py, eyeplot.py та eyemath.py
+) всередині підкаталогу з ім'ям expeyes.
+ Цей підкаталог повинен бути всередині вашої бібліотеки PYTHON LIBRARY PATH
+ (або всередині вашого робочого каталогу).
+ На основі Debian систем GNU / Linux, це може бути зроблено встановленням
+ файлу expeyes-3.xxdeb.
+ В інших системах розпакуйте файл expeyes-3.xxzip і дотримуйтесь інструкцій
+ у файлі README.
+\end_layout
+
+\begin_layout Section
+Зв'язок залізом
+\end_layout
+
+\begin_layout Paragraph*
+Номери каналів
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Номер каналу присвоюється для ідентифікації кожного сигналу аналоговий/цифровий,
+ як зазначено в таблиці
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Channel-numbers-of"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Channel #
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Analog Comparator output
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SEN
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR1 readback
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR2 readback
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR1 output
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR1 output
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OD1 output
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CCS output control
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PVS Readback
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Номери каналів вводу/виводу терміналів
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Channel-numbers-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Запустіть Python інтерпретатор (з каталогу, де ви поклали підкаталоги expeyes),
+ за допомогою команди:
+\end_layout
+
+\begin_layout LyX-Code
+$python
+\end_layout
+
+\begin_layout LyX-Code
+Python 2.7.3 (default, Apr 20 2012, 22:44:07)  
+\end_layout
+
+\begin_layout LyX-Code
+>>>
+\end_layout
+
+\begin_layout Standard
+Потрійна кутова дужка означає, що Ви використовуєте Python в інтерактивному
+ режимі.
+ Введіть наступні два рядки для завантаження бібліотеки і встановлення з'єднання
+ з пристроєм.
+\end_layout
+
+\begin_layout LyX-Code
+>>>import expeyes.eyesj
+\end_layout
+
+\begin_layout LyX-Code
+>>>p=expeyes.eyesj.open()
+\end_layout
+
+\begin_layout Standard
+Якщо ви отримаєте повідомлення про помилку, перевірте з'єднання, та інші
+ програми можуть вже використовувати expEYES.
+ Тільки одна програма може використовувати expEYES одночасно.
+ Ми почнемо з вимірювання паразитної ємності з IN1:
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.measure_cap()   # measure C on IN1
+\end_layout
+
+\begin_layout Standard
+Буде виведено значення від 30 до 35 пФ.
+ Підключіть конденсатор (менше, ніж 0,01 мкФ) між IN1 і землею і повторіть
+ команду.
+ Відніміть паразитні ємності від отриманих значень.
+ 
+\end_layout
+
+\begin_layout Standard
+Система має цифрові функції вводу/виводу.
+ Щоб перевірити їх, підключіть OD1 до IN1 використовуючи шматок дроту і
+ спробуйте наступне:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.get_state(3)    # status of IN1
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.set_state(10,1)       # make OD1 logic high
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.get_state(3)    # new status of IN1
+\end_layout
+
+\begin_layout Standard
+Для другого виклику, get
+\backslash
+textunderscore state(3) повинне надрукувати 1.
+\end_layout
+
+\begin_layout Standard
+Тепер давайте спробуємо генерувати/вимірювати сигнали напруги.
+ Підключіть PVS до IN1 та спробуйте:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.set_voltage(2.5) # returns the value set 
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.get_voltage(3)   # channel 3 is IN1
+\end_layout
+
+\begin_layout Standard
+Воно має вивести 2,5 вольта, протягом 2-3 мВ.
+\end_layout
+
+\begin_layout Standard
+Тепер підключіть SINE до A1 і спробуйте:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.get_voltage(1)
+\end_layout
+
+\begin_layout Standard
+Кожен раз, коли ви виконаєте команду, ви отримаєте різні результати
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+використовуйте курсор і backspace клавішу для редагування попередніх команд
+\end_layout
+
+\end_inset
+
+.
+ У зв'язку з тим, що напруга періодично змінюється, то має сенс вимірювати
+ цю напругу протягом деякого періоду часу і побудувати її графік.
+ Для малювання графіку, ми будемо імпортувати бібліотеку matplotlib.
+ Далі треба захопити синусоїду і побудувати її.
+\end_layout
+
+\begin_layout LyX-Code
+>>>from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+>>>ion()   # set pylab interactive mode
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v = p.capture(1,300,100) 
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/pylab-sine.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/pylab-sine-sqr.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Вхідні данні захоплені і побудовані з використанням pylab (a) Синусоїдальна
+ хвиля (b)Синусоїдальна та прямокутна хвиля 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sine"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ми 300 разів подавали напругу на A1 з затримкою 100 мкс між двома послідовними
+ захопленнями, тобто напруга захоплюється протягом 30 мілісекунд.
+ Кожне слово даних 1 байт в розмірі та максимальне число можливих зразків
+ 1800, обмежене ОЗУ на expEYES.
+\end_layout
+
+\begin_layout Standard
+Графік буде спливати у новому вікні, як показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sine"
+
+\end_inset
+
+(a).
+ Для вимірювання з високою роздільною здатністю (12 біт), ви можете використовув
+ати захоплення 
+\backslash
+textunderscore hr(), але в цьому випадку загальне число зразків повинен
+ бути обмежене 900.
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v = p.capture_hr(1,300,100) 
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+Тепер давайте додамо на графік прямокутний сигнал:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.set_sqr1(100)         # set 100Hz on SQR1
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v = p.capture(6,300,100)    # channel 6 is SQR1 readback
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+Вихід показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sine"
+
+\end_inset
+
+(b).
+\end_layout
+
+\begin_layout Standard
+Деякі експерименти потребують захоплення більше одного сигналу з кореляцією
+ часу, використовуйте capture2, capture3 або capture4 для цього.
+ Наприклад, щоб переглянути, фазовий зсув синусоїди, підключіть SINE до
+ A1, конденсатор 1uF між A1 та A2 і резистор 1k між А2 та GND.
+ Захопити напругу до і після конденсатора можливо за допомогою:
+\end_layout
+
+\begin_layout LyX-Code
+>>>t1,v1,t2,v2 = p.capture2(1, 2,300,100)       
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t1,v1, t2,v2)
+\end_layout
+
+\begin_layout Standard
+Результат показаний на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)Phase-shift-of"
+
+\end_inset
+
+(a).
+ Останній рядок ділянки - це фігура Ліссажу, як показано на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)Phase-shift-of"
+
+\end_inset
+
+(b).
+ Там більш ніж один еліпс, один над іншим, так як ми захопили більше одного
+ циклу.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/pylab-sine-phase.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/lissaj.png1
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a)Зсув фази синусоїди на конденсаторі.
+ (b) Фігури Ліссажу
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:(a)Phase-shift-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+У деяких експериментах, захоплена напруга може генеруватися деякими іншими
+ діями, такими як зміна рівня напруги.
+ Це робиться шляхом запровадження модифікатора захоплення.
+ Це може бути легко продемонстровано шляхом захоплення напруги на конденсаторі,
+ відразу після подачі на нього живлення через резистор.
+ Підключіть 1k резистор між OD1 та A1, а 1uF конденсатор між А1 та GND,
+ і запустіть:
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.set_state(1)        # OD1 5 volts
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.enable_set_low(10)  # Effect only during capture 
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v=p.capture_hr(1,300,20)  # OD1->0 before capture 
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.disable_actions()   # No more actions on OD1
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+Результат показаний на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)-PWM-waveform"
+
+\end_inset
+
+(a).
+\end_layout
+
+\begin_layout Standard
+Виходи SQR1 та SQR2 можуть генерувати прямокутні хвилі в діапазоні від 0,7
+ Гц до 200 кГц, функція повертає фактичний набір частот.
+ Вони також можуть бути запрограмовані для генерації сигналу широтно-імпульсної
+ модуляції (ШІМ) , на деяких фіксованих частотах.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/pylab-cap-discharge.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/pylab-pwm.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Розряд конденсатору (b) Форма сигналу ШІМ
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:(a)-PWM-waveform"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.set_sqr1_pwm(30)    # 30% duty cycle, 488 Hz
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v=p.capture_hr(6, 300,50)   # get the wave form
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+Результат показаний на малюнку
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)-PWM-waveform"
+
+\end_inset
+
+(b).
+ 
+\end_layout
+
+\begin_layout Standard
+Виходи SQR1 та SQR2 можуть генерувати прямокутні хвилі в діапазоні від 0,7
+ Гц до 200 кГц, функція повертає фактичний набір частот.
+ Вони також можуть бути запрограмовані для генерації сигналу широтно-імпульсної
+ модуляції (ШІМ) , на деяких фіксованих частотах.
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.r2ftime(3,3)      
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.set_sqr1(1000)    # 1kHz square wave
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.r2ftime(3,3)      # rising to falling
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.multi_r2rtime(3)  # two rising edge 
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.measure_frequency(3)
+\end_layout
+
+\begin_layout Standard
+Спробуйте встановити прямокутні хвилі різних частот і виміряти їх.
+\end_layout
+
+\begin_layout Standard
+У захопленого сигналу, ми можемо по кривій виміряти амплітуду і частоту.
+ Точні результати можна отримати при використанні синусоїдального вхідного
+ сигналу, але вимірювання частоти працює і з іншими формами сигналів також.
+ З'єднайте SINE з A1 і спробуйте:
+\end_layout
+
+\begin_layout LyX-Code
+>>>import expeyes.eyemath as em
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v= p.capture_hr(1, 400,50)
+\end_layout
+
+\begin_layout LyX-Code
+>>>vfit, par = em.fit_sine(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+>>>print par[0], par[1]*1000   # Amplitude & Frequency
+\end_layout
+
+\begin_layout Standard
+Пікова напруга та частота будуть надруковані.
+\end_layout
+
+\begin_layout Standard
+Для отримання додаткової інформації прочитайте керівництво програміста.
+ Ви можете отримати короткий опис всіх функцій за допомогою команди
+\end_layout
+
+\begin_layout LyX-Code
+>>>help(expeyes.eyesj)
+\end_layout
+
+\begin_layout Standard
+Як тільки ви вивчите мову Python, вам буде простіше читати вихідний код
+ eyesj.py щоб зрозуміти роботу програми.
+\end_layout
+
+\begin_layout Standard
+The latest PDF versions of this manual can be downloaded from http://expeyes.in
+\end_layout
+
+\begin_layout LyX-Code
+Якщо ви знайшли помилки, відправте листа на наajith@iuac.res.in
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\end_body
+\end_document
